@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Notre Dame Linux Users Group</title>
+    <link>http://ndlug.org/tags/</link>
+    <description>Recent content in Tags on Notre Dame Linux Users Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Oct 2017 18:09:20 -0400</lastBuildDate>
+    
+	<atom:link href="http://ndlug.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux From Scratch</title>
+      <link>http://ndlug.org/tags/linux-from-scratch/</link>
+      <pubDate>Tue, 24 Oct 2017 18:09:20 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/linux-from-scratch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lug Meeting</title>
+      <link>http://ndlug.org/tags/lug-meeting/</link>
+      <pubDate>Tue, 24 Oct 2017 18:09:20 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/lug-meeting/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
