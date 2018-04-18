@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://ndlug.org/post/jeffrey-digitalocean/</loc>
+    <lastmod>2018-04-13T14:09:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/post/git-tutorial/</loc>
+    <lastmod>2018-04-12T13:45:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/post/2018election/</loc>
+    <lastmod>2018-03-18T14:09:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/post/create-day/</loc>
+    <lastmod>2018-03-18T14:09:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/post/jeffrey-arrows/</loc>
+    <lastmod>2018-02-06T14:09:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/post/howto-site/</loc>
+    <lastmod>2017-11-28T13:09:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/post/jeffrey-ime/</loc>
+    <lastmod>2017-11-14T18:09:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/post/doug-8bit-esolangs/</loc>
+    <lastmod>2017-11-08T18:09:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/post/will-markley-linux-from-scratch/</loc>
+    <lastmod>2017-10-24T18:09:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/post/contributing/</loc>
+    <lastmod>2017-10-24T15:00:42-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/post/welcome/</loc>
+    <lastmod>2017-08-31T15:00:42-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/tags/arrows/</loc>
+    <lastmod>2018-02-06T14:09:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/tags/digital-ocean/</loc>
+    <lastmod>2018-04-13T14:09:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/tags/elections/</loc>
+    <lastmod>2018-03-18T14:09:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/tags/esolangs/</loc>
+    <lastmod>2017-11-08T18:09:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/tags/git/</loc>
+    <lastmod>2018-04-12T13:45:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/tags/hackathon/</loc>
+    <lastmod>2018-04-13T14:09:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/tags/how-to/</loc>
+    <lastmod>2017-11-28T13:09:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/tags/intel-management-engine/</loc>
+    <lastmod>2017-11-14T18:09:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/tags/linux-from-scratch/</loc>
+    <lastmod>2017-10-24T18:09:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/tags/lug/</loc>
+    <lastmod>2018-03-18T14:09:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/categories/lug/</loc>
+    <lastmod>2018-04-13T14:09:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/tags/lug-meeting/</loc>
+    <lastmod>2018-04-13T14:09:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/tags/lug-svs/</loc>
+    <lastmod>2018-03-18T14:09:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/</loc>
+    <lastmod>2018-04-13T14:09:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/post/</loc>
+    <lastmod>2018-04-13T14:09:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/tags/</loc>
+    <lastmod>2018-02-06T14:09:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://ndlug.org/tags/vps/</loc>
+    <lastmod>2018-04-13T14:09:20-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
