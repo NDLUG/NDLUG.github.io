@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lug Svs on Notre Dame Linux Users Group</title>
+    <link>http://ndlug.org/tags/lug-svs/</link>
+    <description>Recent content in Lug Svs on Notre Dame Linux Users Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Mar 2018 14:09:20 -0400</lastBuildDate>
+    
+	<atom:link href="http://ndlug.org/tags/lug-svs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>World Create Day</title>
+      <link>http://ndlug.org/post/create-day/</link>
+      <pubDate>Sun, 18 Mar 2018 14:09:20 -0400</pubDate>
+      
+      <guid>http://ndlug.org/post/create-day/</guid>
+      <description>img { width: 85%; } The Silicon Valley Semester chapter of the Notre Dame Linux User&amp;rsquo;s Group participated in World Create Day 2018. We got together for a global day of hacking in community. Each participant came in with either a working project, an idea for a new project, or just their creativity and an open mind. We had an alumni mentor (David Mattia &amp;lsquo;17) join us and give us tips on our projects.</description>
+    </item>
+    
+  </channel>
+</rss>

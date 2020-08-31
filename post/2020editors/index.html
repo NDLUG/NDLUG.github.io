@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta name="generator" content="Hugo 0.53" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editors in the Field | Notre Dame Linux Users Group</title>
+    <meta name="description" content="LUG members share and learn about text editors">
+    <meta name="keywords" content="lug, text editors, ide">
+    
+    
+    
+    
+    
+
+  <meta name="author" content="">
+
+
+    <meta property="og:title" content="Text Editors in the Field" />
+<meta property="og:description" content="LUG members share and learn about text editors" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://ndlug.org/post/2020editors/" /><meta property="article:published_time" content="2020-01-29T17:00:00-04:00"/>
+<meta property="article:modified_time" content="2020-01-29T17:00:00-04:00"/>
+
+    
+
+
+
+
+    <meta name="theme-color" content="#000">
+
+    
+    
+    <link rel="canonical" href="http://ndlug.org/post/2020editors/">
+    
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" sizes="any" href="data:image/svg+xml,%3Csvg%20viewBox='0%200%2046%2045'%20xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EAfter%20Dark%3C/title%3E%3Cpath%20d='M.708%2045L23%20.416%2045.292%2045H.708zM35%2038L23%2019%2011%2038h24z'%20fill='%23000'/%3E%3C/svg%3E">
+
+    <style>
+  
+  hr {
+    color: #118811;
+}
+nav {
+    background-color: #118811;
+}
+a {
+    color: #a2a500;
+}
+blockquote {
+    border-left: 5px solid #a2a500;
+}
+
+.section-link-container {
+    display: flex;
+}
+.section-link {
+    display: flex;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.section-link i {
+    opacity: 0;
+}
+
+.section-link:hover {
+    background-color: #dedede;
+    transition: background-color .25s;
+}
+
+.section-link:hover i {
+    opacity: 1;
+    transition: opacity .25s;
+}
+
+  
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 50%;
+}
+.column1 {
+    flex: 66%;
+    padding: 10px;
+}
+.column2 {
+    flex: 34%;
+    padding: 10px;
+}
+
+.leftterm {
+    flex: 11%;
+}
+
+.rightterm {
+    flex: 50%;
+}
+
+.spannyboi {
+    background-color: transparent;
+    color: #118811;
+    font-weight: bolder;
+}
+
+blockquote {
+    line-height: 1;
+    margin-top: 0;
+}
+
+.section-link {
+    padding: 0;
+    margin: 0;
+}
+
+h4 {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.bar {
+    width: 85%;
+    height: 16px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 9pt;
+    margin: auto;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-weight: bolder;
+}
+
+ul {
+    font-size: 12pt;
+}
+
+.term {
+    margin: auto;
+    border: 2px solid black;
+    padding: 3px;
+    width: 85%;
+    background-color: #fdfdc9;
+    font-size: 6pt;
+    font-family: monospace; 
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    margin-top: 7px;
+}
+
+hr {
+    color: #cccccc;
+}
+
+.readmore {
+    text-align: right;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #242424;
+    color: #e4e4e4;
+  }
+  a {
+    color: rgb(107, 210, 95);
+  }
+  img {
+    filter: grayscale(30%);
+  }
+
+  .term {
+    background-color: #181818; 
+  }
+}
+
+</style>
+
+    
+    
+    
+      <script async src="/js/bpgdec8a.js"></script>
+      <script async src="/js/bpgdec8.js"></script>
+      <script async src="/js/bpgdec.js"></script>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    
+  </head>
+  
+  <body class="hack dark main container">
+    <header>
+  
+<nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+    <div class="nav-wrapper">
+        <a href="/" class="brand-logo center">NDLUG</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+            
+            
+            <li class="">
+            <a itemprop="url" href="/"><span itemprop="name">Home</span></a>
+            </li>
+            
+            <li class="">
+            <a itemprop="url" href="/member/"><span itemprop="name">Members</span></a>
+            </li>
+            
+            <li class="active">
+            <a itemprop="url" href="/post/"><span itemprop="name">Posts</span></a>
+            </li>
+            
+        </ul>
+    </div>
+</nav>
+
+
+</header>
+    <main>
+  <article itemscope itemtype="http://schema.org/BlogPosting">
+    
+<meta itemprop="name" content="Text Editors in the Field">
+<meta itemprop="description" content="LUG members share and learn about text editors">
+
+
+<meta itemprop="datePublished" content="2020-01-29T17:00:00-04:00" />
+<meta itemprop="dateModified" content="2020-01-29T17:00:00-04:00" />
+<meta itemprop="wordCount" content="442">
+
+
+
+<meta itemprop="keywords" content="lug,text editors,ide," />
+
+    <header>
+      <h1 itemprop="headline">Text Editors in the Field</h1>
+      <p class="muted">
+        <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>3 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2020-01-29T17:00:00-04:00">29 Jan, 2020</time>
+
+
+      </p>
+    </header>
+    
+      <blockquote itemprop="description">LUG members share and learn about text editors</blockquote>
+    
+    
+
+    <div itemprop="articleBody">
+      <p>LUG members share and learn about text editors.</p>
+
+<h2 id="emacs-spacemacs">Emacs / Spacemacs</h2>
+
+<p><center>
+<img src="chadbill.jpg" alt="yung william" width="800" height="auto"\>
+<br>
+<em>LUG member and graduate student William &ldquo;Bill&rdquo; Theisen showing off emacs</em>
+<br>
+<br>
+</center></p>
+
+<p>The first text editor shown during the meeting was Emacs, shown by avid LUG member and graduate student William &ldquo;Bill&rdquo; Theisen.
+<a href="https://www.gnu.org/s/emacs/">Emacs</a> or <a href="https://www.spacemacs.org">spacemacs</a> as Bill uses, is a truly open
+source editor from the 1970s. The club could really see Bill&rsquo;s enthusiasm for the editor!
+He shared all of the cool features like its extensibility, org-mode, and even Tetris!</p>
+
+<p><br></p>
+
+<p>Spacemacs is an emacs &ldquo;distro&rdquo;, which has Vim keybindings (which Bill claims as superior) and is fully community-driven.
+&ldquo;Notice I can click on this with my mouse&hellip;&rdquo; says Bill Theisen sharing one of his <em>Key</em> selling points.
+From writing class notes in org-mode to evaluating python code like a jupyter notebook, Bill described the
+optimal way to take in class notes.</p>
+
+<p><br></p>
+
+<p>He ended his presentation saying &ldquo;I mostly just use vim&hellip;&rdquo;.</p>
+
+<p><a href="https://docs.google.com/presentation/d/1mebz5I6aMXKYgd446F41wHV7Nxgn50WBTHMR40rvCso/edit?usp=sharing">SLIDES</a> from his presentation!</p>
+
+<h2 id="vim">Vim</h2>
+
+<p><center>
+<img src="blyons.jpg" alt="blyons" width="800" height="auto"\>
+<br>
+<em>Ben shares his superior text editor</em>
+<br>
+<br>
+</center></p>
+
+<p>Ben shared his favorite editor, Vim. With BUILT IN vim keybindings, and no need to even use the mouse, vim really outpaces its competitors.
+He showed basic commands and the built in Vim tutor to show its ease.
+He even showed us how to exit vim!
+Ben went on to explain the extensibility of vim with its Plugin system, and the vimrc configuration file.</p>
+
+<h2 id="vscode">VSCode</h2>
+
+<p><center>
+<img src="sbattali.jpg" alt="sbattali" width="800" height="auto"\>
+<br>
+<em>Sam shows off VSCode</em>
+<br>
+<br>
+</center></p>
+
+<p>Sam showed off VSCode. He talked about its extensibility, ease of use, and ssh-ability.
+He showed off how easy it is to make it work just like your favorite editor, but in VSCode.
+Further, he talked about git (with help from Zephan) and how it is built in to VSCode from the start.
+He even shilled a telemtry free version of VSCode called VSCodium!</p>
+
+<h2 id="atom">Atom</h2>
+
+<p><center>
+<img src="julius.jpg" alt="julius" width="800" height="auto"\>
+<br>
+<em>Julius teaches about Atom</em>
+<br>
+<br>
+</center></p>
+
+<p>Julius showed off Atom. Sharing the quick flight manual, plugins, and general usability of the IDE, he made a very good case for it! If you are craving something simple, atom is the place for you!</p>
+
+<h2 id="pycharm">Pycharm</h2>
+
+<p><center>
+<img src="noah.jpg" alt="noah" width="800" height="auto"\>
+<br>
+<em>Noah shills PyCharm (NOT PICTURED, here is a picture of Noah from our <a href="https://www.youtube.com/channel/UCgjD_i0PrkKerzrN9OsheWg">YOUTUBE CHANNEL</a></em>
+<br>
+<br>
+</center></p>
+
+<p>Noah told us about Jetbrain&rsquo;s python IDE, PyCharm. This IDE has every bell &amp; whistle fully imaginable.
+&ldquo;It pretty much writes every line of code for you&rdquo;, said Noah as he describe how this is an industry standard and used by many companies.
+This IDE actually tries to read your code and give you very good information on your code and empowers refactors.</p>
+
+<p><br></p>
+
+<p>Thanks for everyone who came this week, we had a great turnout! Hopefully everyone learned something,
+and might even consider trying out a new editor!</p>
+    </div>
+    
+    <footer>
+      <hr>
+      <p>
+  Published
+  
+    
+      by <span itemprop="author"></span>
+    
+  
+  <time itemprop="datePublished" datetime="2020-01-29T17:00:00-04:00">
+    29 Jan, 2020
+  </time>
+  
+    in <span itemprop="articleSection"><a href="/categories/ide/">ide</a>, <a href="/categories/lug/">lug</a> and <a href="/categories/text-editors/">text editors</a></span>
+  
+  
+    and tagged <a href="/tags/ide/">ide</a>, <a href="/tags/lug/">lug</a> and <a href="/tags/text-editors/">text editors</a>
+  
+  using <span itemprop="wordCount">442</span> words.
+</p>
+
+      
+
+
+  <aside>
+    <header>Related Content</header>
+    <ul>
+      
+        <li><a href="/post/2019raspi/">Raspberry Pi Showcase</a>
+        <time datetime="2M">2 minutes</time>
+      
+        <li><a href="/post/2019flasktutorial/">Flask Tutorial/Hackathon Prep</a>
+        <time datetime="1M">1 minutes</time>
+      
+        <li><a href="/member/zenciso/">Zephan M. Enciso</a>
+        <time datetime="1M">1 minutes</time>
+      
+        <li><a href="/member/bingwers/">Bryan Ingwersen (bingwers)</a>
+        <time datetime="1M">1 minutes</time>
+      
+        <li><a href="/member/pchun/">Parker Chun (pchun)</a>
+        <time datetime="1M">1 minutes</time>
+      
+        <li><a href="/member/bbudden/">Bradley Budden (bbudden)</a>
+        <time datetime="1M">1 minutes</time>
+      
+        <li><a href="/member/khund/">Kathryn Hund (khund)</a>
+        <time datetime="1M">1 minutes</time>
+      
+    </ul>
+  </aside>
+
+
+    </footer>
+  </article>
+</main>
+    <footer>
+  
+</footer>
+  </body>
+</html>

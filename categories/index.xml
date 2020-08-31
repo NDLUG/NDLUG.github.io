@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Notre Dame Linux Users Group</title>
+    <link>http://ndlug.org/categories/</link>
+    <description>Recent content in Categories on Notre Dame Linux Users Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://ndlug.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Command Line</title>
+      <link>http://ndlug.org/categories/command-line/</link>
+      <pubDate>Tue, 01 Oct 2019 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/categories/command-line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elections</title>
+      <link>http://ndlug.org/categories/elections/</link>
+      <pubDate>Mon, 04 May 2020 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/categories/elections/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flask</title>
+      <link>http://ndlug.org/categories/flask/</link>
+      <pubDate>Mon, 11 Nov 2019 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/categories/flask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hackathon</title>
+      <link>http://ndlug.org/categories/hackathon/</link>
+      <pubDate>Mon, 11 Nov 2019 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/categories/hackathon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ide</title>
+      <link>http://ndlug.org/categories/ide/</link>
+      <pubDate>Wed, 29 Jan 2020 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/categories/ide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Installfest</title>
+      <link>http://ndlug.org/categories/installfest/</link>
+      <pubDate>Sat, 21 Sep 2019 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/categories/installfest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internships</title>
+      <link>http://ndlug.org/categories/internships/</link>
+      <pubDate>Sun, 30 Aug 2020 10:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/categories/internships/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Irc</title>
+      <link>http://ndlug.org/categories/irc/</link>
+      <pubDate>Sun, 17 May 2020 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/categories/irc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lug</title>
+      <link>http://ndlug.org/categories/lug/</link>
+      <pubDate>Sun, 30 Aug 2020 10:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/categories/lug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Officers</title>
+      <link>http://ndlug.org/categories/officers/</link>
+      <pubDate>Tue, 05 May 2020 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/categories/officers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>http://ndlug.org/categories/open-source/</link>
+      <pubDate>Thu, 25 Oct 2018 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/categories/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Podcast</title>
+      <link>http://ndlug.org/categories/podcast/</link>
+      <pubDate>Sun, 30 Aug 2020 10:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/categories/podcast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://ndlug.org/categories/python/</link>
+      <pubDate>Mon, 11 Nov 2019 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi</title>
+      <link>http://ndlug.org/categories/raspberry-pi/</link>
+      <pubDate>Tue, 19 Nov 2019 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/categories/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Remote Computing</title>
+      <link>http://ndlug.org/categories/remote-computing/</link>
+      <pubDate>Wed, 05 Feb 2020 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/categories/remote-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reveal</title>
+      <link>http://ndlug.org/categories/reveal/</link>
+      <pubDate>Sun, 17 May 2020 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/categories/reveal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text Editors</title>
+      <link>http://ndlug.org/categories/text-editors/</link>
+      <pubDate>Wed, 29 Jan 2020 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/categories/text-editors/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

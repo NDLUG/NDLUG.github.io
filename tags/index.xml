@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Notre Dame Linux Users Group</title>
+    <link>http://ndlug.org/tags/</link>
+    <description>Recent content in Tags on Notre Dame Linux Users Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 03 Sep 2018 09:30:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://ndlug.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2018</title>
+      <link>http://ndlug.org/tags/2018/</link>
+      <pubDate>Mon, 03 Sep 2018 09:30:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arrows</title>
+      <link>http://ndlug.org/tags/arrows/</link>
+      <pubDate>Tue, 06 Feb 2018 14:09:20 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/arrows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Command Line</title>
+      <link>http://ndlug.org/tags/command-line/</link>
+      <pubDate>Tue, 01 Oct 2019 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/command-line/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contributing</title>
+      <link>http://ndlug.org/tags/contributing/</link>
+      <pubDate>Thu, 25 Oct 2018 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/contributing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Digital Ocean</title>
+      <link>http://ndlug.org/tags/digital-ocean/</link>
+      <pubDate>Fri, 13 Apr 2018 14:09:20 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/digital-ocean/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Elections</title>
+      <link>http://ndlug.org/tags/elections/</link>
+      <pubDate>Tue, 05 May 2020 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/elections/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Esolangs</title>
+      <link>http://ndlug.org/tags/esolangs/</link>
+      <pubDate>Wed, 08 Nov 2017 18:09:20 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/esolangs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flask</title>
+      <link>http://ndlug.org/tags/flask/</link>
+      <pubDate>Mon, 11 Nov 2019 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/flask/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://ndlug.org/tags/git/</link>
+      <pubDate>Thu, 12 Apr 2018 13:45:20 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hackathon</title>
+      <link>http://ndlug.org/tags/hackathon/</link>
+      <pubDate>Mon, 11 Nov 2019 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/hackathon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hacktoberfest</title>
+      <link>http://ndlug.org/tags/hacktoberfest/</link>
+      <pubDate>Thu, 25 Oct 2018 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/hacktoberfest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>How To</title>
+      <link>http://ndlug.org/tags/how-to/</link>
+      <pubDate>Tue, 28 Nov 2017 13:09:20 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/how-to/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ide</title>
+      <link>http://ndlug.org/tags/ide/</link>
+      <pubDate>Wed, 29 Jan 2020 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/ide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Installfest</title>
+      <link>http://ndlug.org/tags/installfest/</link>
+      <pubDate>Sat, 21 Sep 2019 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/installfest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Intel Management Engine</title>
+      <link>http://ndlug.org/tags/intel-management-engine/</link>
+      <pubDate>Tue, 14 Nov 2017 18:09:20 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/intel-management-engine/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internships</title>
+      <link>http://ndlug.org/tags/internships/</link>
+      <pubDate>Sun, 30 Aug 2020 10:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/internships/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Irc</title>
+      <link>http://ndlug.org/tags/irc/</link>
+      <pubDate>Sun, 17 May 2020 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/irc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Latex</title>
+      <link>http://ndlug.org/tags/latex/</link>
+      <pubDate>Fri, 05 Oct 2018 04:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux From Scratch</title>
+      <link>http://ndlug.org/tags/linux-from-scratch/</link>
+      <pubDate>Tue, 24 Oct 2017 18:09:20 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/linux-from-scratch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lug</title>
+      <link>http://ndlug.org/tags/lug/</link>
+      <pubDate>Sun, 30 Aug 2020 10:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/lug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lug Internship</title>
+      <link>http://ndlug.org/tags/lug-internship/</link>
+      <pubDate>Tue, 10 Sep 2019 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/lug-internship/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lug Meeting</title>
+      <link>http://ndlug.org/tags/lug-meeting/</link>
+      <pubDate>Fri, 13 Apr 2018 14:09:20 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/lug-meeting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lug Svs</title>
+      <link>http://ndlug.org/tags/lug-svs/</link>
+      <pubDate>Sun, 18 Mar 2018 14:09:20 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/lug-svs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>http://ndlug.org/tags/machine-learning/</link>
+      <pubDate>Thu, 11 Apr 2019 10:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mattermost</title>
+      <link>http://ndlug.org/tags/mattermost/</link>
+      <pubDate>Sat, 16 Feb 2019 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/mattermost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meeting</title>
+      <link>http://ndlug.org/tags/meeting/</link>
+      <pubDate>Mon, 03 Sep 2018 09:30:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/meeting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Open Source</title>
+      <link>http://ndlug.org/tags/open-source/</link>
+      <pubDate>Thu, 11 Apr 2019 10:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/open-source/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Podcast</title>
+      <link>http://ndlug.org/tags/podcast/</link>
+      <pubDate>Sun, 30 Aug 2020 10:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/podcast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming Languages</title>
+      <link>http://ndlug.org/tags/programming-languages/</link>
+      <pubDate>Thu, 15 Nov 2018 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/programming-languages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://ndlug.org/tags/python/</link>
+      <pubDate>Mon, 11 Nov 2019 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi</title>
+      <link>http://ndlug.org/tags/raspberry-pi/</link>
+      <pubDate>Tue, 19 Nov 2019 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Remote Computing</title>
+      <link>http://ndlug.org/tags/remote-computing/</link>
+      <pubDate>Wed, 05 Feb 2020 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/remote-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reveal</title>
+      <link>http://ndlug.org/tags/reveal/</link>
+      <pubDate>Sun, 17 May 2020 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/reveal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ricing</title>
+      <link>http://ndlug.org/tags/ricing/</link>
+      <pubDate>Thu, 01 Nov 2018 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/ricing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slack</title>
+      <link>http://ndlug.org/tags/slack/</link>
+      <pubDate>Sat, 16 Feb 2019 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/slack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssh</title>
+      <link>http://ndlug.org/tags/ssh/</link>
+      <pubDate>Wed, 05 Feb 2020 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssh Tunneling</title>
+      <link>http://ndlug.org/tags/ssh-tunneling/</link>
+      <pubDate>Wed, 05 Feb 2020 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/ssh-tunneling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Style</title>
+      <link>http://ndlug.org/tags/style/</link>
+      <pubDate>Fri, 05 Oct 2018 04:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/style/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tensorflow</title>
+      <link>http://ndlug.org/tags/tensorflow/</link>
+      <pubDate>Thu, 11 Apr 2019 10:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/tensorflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text Editors</title>
+      <link>http://ndlug.org/tags/text-editors/</link>
+      <pubDate>Wed, 29 Jan 2020 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/text-editors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tigervnc</title>
+      <link>http://ndlug.org/tags/tigervnc/</link>
+      <pubDate>Wed, 05 Feb 2020 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/tigervnc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tmux</title>
+      <link>http://ndlug.org/tags/tmux/</link>
+      <pubDate>Wed, 05 Feb 2020 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/tmux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vps</title>
+      <link>http://ndlug.org/tags/vps/</link>
+      <pubDate>Fri, 13 Apr 2018 14:09:20 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/vps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web Programming</title>
+      <link>http://ndlug.org/tags/web-programming/</link>
+      <pubDate>Wed, 27 Mar 2019 18:30:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/tags/web-programming/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

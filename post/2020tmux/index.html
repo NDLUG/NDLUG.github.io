@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta name="generator" content="Hugo 0.53" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical Applications of Tmux &#43; Remote Computing | Notre Dame Linux Users Group</title>
+    <meta name="description" content="LUG members learn about Remote Computing!">
+    <meta name="keywords" content="lug, tmux, tigervnc, remote computing, ssh, ssh tunneling">
+    
+    
+    
+    
+    
+
+  <meta name="author" content="">
+
+
+    <meta property="og:title" content="Practical Applications of Tmux &#43; Remote Computing" />
+<meta property="og:description" content="LUG members learn about Remote Computing!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://ndlug.org/post/2020tmux/" /><meta property="article:published_time" content="2020-02-05T17:00:00-04:00"/>
+<meta property="article:modified_time" content="2020-02-05T17:00:00-04:00"/>
+
+    
+
+
+
+
+    <meta name="theme-color" content="#000">
+
+    
+    
+    <link rel="canonical" href="http://ndlug.org/post/2020tmux/">
+    
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" sizes="any" href="data:image/svg+xml,%3Csvg%20viewBox='0%200%2046%2045'%20xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EAfter%20Dark%3C/title%3E%3Cpath%20d='M.708%2045L23%20.416%2045.292%2045H.708zM35%2038L23%2019%2011%2038h24z'%20fill='%23000'/%3E%3C/svg%3E">
+
+    <style>
+  
+  hr {
+    color: #118811;
+}
+nav {
+    background-color: #118811;
+}
+a {
+    color: #a2a500;
+}
+blockquote {
+    border-left: 5px solid #a2a500;
+}
+
+.section-link-container {
+    display: flex;
+}
+.section-link {
+    display: flex;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.section-link i {
+    opacity: 0;
+}
+
+.section-link:hover {
+    background-color: #dedede;
+    transition: background-color .25s;
+}
+
+.section-link:hover i {
+    opacity: 1;
+    transition: opacity .25s;
+}
+
+  
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 50%;
+}
+.column1 {
+    flex: 66%;
+    padding: 10px;
+}
+.column2 {
+    flex: 34%;
+    padding: 10px;
+}
+
+.leftterm {
+    flex: 11%;
+}
+
+.rightterm {
+    flex: 50%;
+}
+
+.spannyboi {
+    background-color: transparent;
+    color: #118811;
+    font-weight: bolder;
+}
+
+blockquote {
+    line-height: 1;
+    margin-top: 0;
+}
+
+.section-link {
+    padding: 0;
+    margin: 0;
+}
+
+h4 {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.bar {
+    width: 85%;
+    height: 16px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 9pt;
+    margin: auto;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-weight: bolder;
+}
+
+ul {
+    font-size: 12pt;
+}
+
+.term {
+    margin: auto;
+    border: 2px solid black;
+    padding: 3px;
+    width: 85%;
+    background-color: #fdfdc9;
+    font-size: 6pt;
+    font-family: monospace; 
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    margin-top: 7px;
+}
+
+hr {
+    color: #cccccc;
+}
+
+.readmore {
+    text-align: right;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #242424;
+    color: #e4e4e4;
+  }
+  a {
+    color: rgb(107, 210, 95);
+  }
+  img {
+    filter: grayscale(30%);
+  }
+
+  .term {
+    background-color: #181818; 
+  }
+}
+
+</style>
+
+    
+    
+    
+      <script async src="/js/bpgdec8a.js"></script>
+      <script async src="/js/bpgdec8.js"></script>
+      <script async src="/js/bpgdec.js"></script>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    
+  </head>
+  
+  <body class="hack dark main container">
+    <header>
+  
+<nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+    <div class="nav-wrapper">
+        <a href="/" class="brand-logo center">NDLUG</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+            
+            
+            <li class="">
+            <a itemprop="url" href="/"><span itemprop="name">Home</span></a>
+            </li>
+            
+            <li class="">
+            <a itemprop="url" href="/member/"><span itemprop="name">Members</span></a>
+            </li>
+            
+            <li class="active">
+            <a itemprop="url" href="/post/"><span itemprop="name">Posts</span></a>
+            </li>
+            
+        </ul>
+    </div>
+</nav>
+
+
+</header>
+    <main>
+  <article itemscope itemtype="http://schema.org/BlogPosting">
+    
+<meta itemprop="name" content="Practical Applications of Tmux &#43; Remote Computing">
+<meta itemprop="description" content="LUG members learn about Remote Computing!">
+
+
+<meta itemprop="datePublished" content="2020-02-05T17:00:00-04:00" />
+<meta itemprop="dateModified" content="2020-02-05T17:00:00-04:00" />
+<meta itemprop="wordCount" content="378">
+
+
+
+<meta itemprop="keywords" content="lug,tmux,tigervnc,remote computing,ssh,ssh tunneling," />
+
+    <header>
+      <h1 itemprop="headline">Practical Applications of Tmux &#43; Remote Computing</h1>
+      <p class="muted">
+        <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>2 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2020-02-05T17:00:00-04:00">5 Feb, 2020</time>
+
+
+      </p>
+    </header>
+    
+      <blockquote itemprop="description">LUG members learn about Remote Computing!</blockquote>
+    
+    
+
+    <div itemprop="articleBody">
+      <p>Lug members learn about Remote Computing in a variety of applied concepts.</p>
+
+<h2 id="pkgsrc-ssh">Pkgsrc + SSH</h2>
+
+<p><center>
+<img src="bui.jpg" alt="bui" width="100%" height="auto"\>
+<br>
+<em>Professor Bui explains how to avoid having to use sudo on stuent machines</em>
+<br>
+<br>
+</center></p>
+
+<p>The first thing we talked about at the meeting was Pkgsrc + SSH. Professor Bui explained a way to use autotools to
+avoid the need to use sudo on the student machines. How useful and powerful!
+Most software packages use some variant of autotools, and you basically build/install the program yourself.</p>
+
+<p>He demonstrated this with cmatrix, with isn&rsquo;t installed on the student machines.</p>
+
+<p>He went further and described pkgsrc, which saves you from &ldquo;dependency hell&rdquo;.</p>
+
+<p><br></p>
+
+<p>pkgsrc is a framework for building third-party software on NetBSD and other UNIX-like systems.</p>
+
+<p>By simple setting it up with the right flags, you can run it without using the <em>sudo</em> command. (Ramzi approved!)</p>
+
+<p><br>
+<center>
+<img src="SUDO.JPG" alt="ramzi" width="100%" height="auto"\>
+<br>
+<em>Dont use Sudo</em>
+<br>
+<br>
+</center></p>
+
+<p>With this powerful tool, we can download and use all sorts of things like webserver too!</p>
+
+<p>He then went on to explain SSH tunneling, to help use ssh to &ldquo;tunnel&rdquo; traffic through the firewall.
+Pretty elite hacking if you ask me.</p>
+
+<p><a href="https://docs.google.com/presentation/d/1vAtcDuIa3bALbRpOe4auCTv5gB-GAZi5iihqfm69Wcs/edit?usp=sharing">LINK TO SLIDES</a></p>
+
+<h2 id="tmux-powerline">Tmux + Powerline</h2>
+
+<p><center>
+<img src="sam.jpg" alt="samba" width="100%" height="auto"\>
+<br>
+<em>Sam flexes his brain with Tmux</em>
+<br>
+<br>
+</center></p>
+
+<p>Sam talked about Tmux and powerline. He explained the use cases of tmux and its prowess in remote computing.
+Describing use cases, he demonstrated the persistance of the sessions throughout ssh connections and cool
+configurations.</p>
+
+<p>He also spoke about powerline, which is a nice style addition to Tmux. It adds a far nicer looking customizable
+status bar to the bottom of the tmux session.</p>
+
+<p><a href="https://docs.google.com/presentation/d/1wnaSwvEPdhpqzo2qEA60hcivQYTzKm_MQVM-netwCAQ/edit?usp=sharing">LINK TO SLIDES</a></p>
+
+<h2 id="tigervnc-web-registration-on-campus">TigerVNC + Web registration on campus</h2>
+
+<p><center>
+<img src="logan.jpg" alt="logan" width="100%" height="auto"\>
+<br>
+<em>Logan shows off TigerVNC</em>
+<br>
+<br>
+</center></p>
+
+<p><a href="https://tigervnc.org">TigerVNC</a> is a open source remote desktop tool. Logan (President Yokum) demonstrated how to set this up so you can
+use your more powerful computer on the go! This allows you to fully remote access other machines with no paywall.</p>
+
+<p><br></p>
+
+<p>Further, he talked about using webreg.nd.edu to give you your own little domain on campus.
+This is a great way to have a flashier way to connect to your computer/server than some garbage of numbers and
+dots.</p>
+
+<p><br></p>
+
+<p>Thanks to everyone who came, I had a great time sharing tmux and hearing the other presentations!
+As always, if you have any questions or suggestions slack or email us!</p>
+
+<p>Sam
+<br></p>
+    </div>
+    
+    <footer>
+      <hr>
+      <p>
+  Published
+  
+    
+      by <span itemprop="author"></span>
+    
+  
+  <time itemprop="datePublished" datetime="2020-02-05T17:00:00-04:00">
+    5 Feb, 2020
+  </time>
+  
+    in <span itemprop="articleSection"><a href="/categories/lug/">lug</a> and <a href="/categories/remote-computing/">remote computing</a></span>
+  
+  
+    and tagged <a href="/tags/lug/">lug</a>, <a href="/tags/remote-computing/">remote computing</a>, <a href="/tags/ssh/">ssh</a>, <a href="/tags/ssh-tunneling/">ssh tunneling</a>, <a href="/tags/tigervnc/">tigervnc</a> and <a href="/tags/tmux/">tmux</a>
+  
+  using <span itemprop="wordCount">378</span> words.
+</p>
+
+      
+
+
+  <aside>
+    <header>Related Content</header>
+    <ul>
+      
+        <li><a href="/post/2020editors/">Text Editors in the Field</a>
+        <time datetime="3M">3 minutes</time>
+      
+        <li><a href="/post/2019raspi/">Raspberry Pi Showcase</a>
+        <time datetime="2M">2 minutes</time>
+      
+        <li><a href="/post/2019flasktutorial/">Flask Tutorial/Hackathon Prep</a>
+        <time datetime="1M">1 minutes</time>
+      
+        <li><a href="/member/zenciso/">Zephan M. Enciso</a>
+        <time datetime="1M">1 minutes</time>
+      
+        <li><a href="/member/bingwers/">Bryan Ingwersen (bingwers)</a>
+        <time datetime="1M">1 minutes</time>
+      
+        <li><a href="/member/pchun/">Parker Chun (pchun)</a>
+        <time datetime="1M">1 minutes</time>
+      
+        <li><a href="/member/elopez7/">Eamon Lopez Marmion (elopez7)</a>
+        <time datetime="1M">1 minutes</time>
+      
+    </ul>
+  </aside>
+
+
+    </footer>
+  </article>
+</main>
+    <footer>
+  
+</footer>
+  </body>
+</html>
