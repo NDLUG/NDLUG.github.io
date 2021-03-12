@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Podcast on Notre Dame Linux Users Group</title>
+    <link>http://ndlug.org/tags/podcast/</link>
+    <description>Recent content in Podcast on Notre Dame Linux Users Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 11 Mar 2021 10:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://ndlug.org/tags/podcast/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LugCast: No Topic (Bottom Text)</title>
+      <link>http://ndlug.org/post/2021notopic/</link>
+      <pubDate>Thu, 11 Mar 2021 10:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/post/2021notopic/</guid>
+      <description>&lt;p&gt;Unable to come up with a generalized theme this week, really trying to embody the spontaneity of real hackers, our LUG hosts turn to a grab-bag of technology and FOSS-related news. &lt;a href=&#34;https://youtu.be/3Y9-cYxeMP4&#34;&gt;Here is a link to our uploaded VOD!&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LugCast: Hacktoberfest is Here!</title>
+      <link>http://ndlug.org/post/2020hacktoberfest/</link>
+      <pubDate>Wed, 30 Sep 2020 10:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/post/2020hacktoberfest/</guid>
+      <description>&lt;p&gt;LUG discusses getting involved in this year&amp;rsquo;s Hacktoberfest and the struggles of being a maintainer during Hacktoberfest.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LugCast: Let&#39;s get riiight into the news!</title>
+      <link>http://ndlug.org/post/2020lugcast-news/</link>
+      <pubDate>Wed, 23 Sep 2020 10:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/post/2020lugcast-news/</guid>
+      <description>&lt;p&gt;We talk a ton about news and whatnot.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>LUG Battlestation Showcase</title>
+      <link>http://ndlug.org/post/2020battlestations/</link>
+      <pubDate>Tue, 15 Sep 2020 10:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/post/2020battlestations/</guid>
+      <description>&lt;p&gt;Our hosts cover FOSS news and topics of interest for the first half of our podcast, followed by a review and showcase of LUG member battlestations for the remainder of the meeting.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Lugcast Episode 3</title>
+      <link>http://ndlug.org/post/2020privacypodcast/</link>
+      <pubDate>Tue, 08 Sep 2020 10:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/post/2020privacypodcast/</guid>
+      <description>&lt;p&gt;Mike, Bui, and Zephan talk about privacy online and how you can protect it!&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Internship Panel 2020</title>
+      <link>http://ndlug.org/post/2020internshippanel/</link>
+      <pubDate>Sun, 30 Aug 2020 10:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/post/2020internshippanel/</guid>
+      <description>&lt;p&gt;President Michael Eisemann is joined by Professor Peter Bui and Zephan Enciso to briefly discuss some FOSS news. Later, Gavin Inglis, Emory Smith, and Sam Battalio field questions about their recent internship experiences and offer advice to underclassmen on how to get their desired job.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Wowzers! We&#39;re Starting a Podcast!</title>
+      <link>http://ndlug.org/post/2020firstpodcast/</link>
+      <pubDate>Mon, 24 Aug 2020 10:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/post/2020firstpodcast/</guid>
+      <description>&lt;p&gt;President Michael Eisemann is joined by Professor Peter Bui and System Administrator Zephan Enciso to kick off this year&amp;rsquo;s LUG with a FOSS news podcast.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta name="generator" content="Hugo 0.53" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to the Command Line | Notre Dame Linux Users Group</title>
+    <meta name="description" content="A lecture by Logan, followed by a group command line adventure.">
+    <meta name="keywords" content="lug, command line">
+    
+    
+    
+    
+    
+
+  <meta name="author" content="">
+
+
+    <meta property="og:title" content="Intro to the Command Line" />
+<meta property="og:description" content="A lecture by Logan, followed by a group command line adventure." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://ndlug.org/post/2019commandline/" /><meta property="article:published_time" content="2019-10-01T17:00:00-04:00"/>
+<meta property="article:modified_time" content="2019-10-01T17:00:00-04:00"/>
+
+    
+
+
+
+
+    <meta name="theme-color" content="#000">
+
+    
+    
+    <link rel="canonical" href="http://ndlug.org/post/2019commandline/">
+    
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" sizes="any" href="data:image/svg+xml,%3Csvg%20viewBox='0%200%2046%2045'%20xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EAfter%20Dark%3C/title%3E%3Cpath%20d='M.708%2045L23%20.416%2045.292%2045H.708zM35%2038L23%2019%2011%2038h24z'%20fill='%23000'/%3E%3C/svg%3E">
+
+    <style>
+  
+  hr {
+    color: #118811;
+}
+nav {
+    background-color: #118811;
+}
+a {
+    color: #a2a500;
+}
+blockquote {
+    border-left: 5px solid #a2a500;
+}
+
+.section-link-container {
+    display: flex;
+}
+.section-link {
+    display: flex;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.section-link i {
+    opacity: 0;
+}
+
+.section-link:hover {
+    background-color: #dedede;
+    transition: background-color .25s;
+}
+
+.section-link:hover i {
+    opacity: 1;
+    transition: opacity .25s;
+}
+
+  
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    flex: 50%;
+}
+.column1 {
+    flex: 66%;
+    padding: 10px;
+}
+.column2 {
+    flex: 34%;
+    padding: 10px;
+}
+
+.leftterm {
+    flex: 11%;
+}
+
+.rightterm {
+    flex: 50%;
+}
+
+.spannyboi {
+    background-color: transparent;
+    color: #118811;
+    font-weight: bolder;
+}
+
+blockquote {
+    line-height: 1;
+    margin-top: 0;
+}
+
+.section-link {
+    padding: 0;
+    margin: 0;
+}
+
+h4 {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.bar {
+    width: 85%;
+    height: 16px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 9pt;
+    margin: auto;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-weight: bolder;
+}
+
+ul {
+    font-size: 12pt;
+}
+
+.term {
+    margin: auto;
+    border: 2px solid black;
+    padding: 3px;
+    width: 85%;
+    background-color: #fdfdc9;
+    font-size: 6pt;
+    font-family: monospace; 
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    margin-top: 7px;
+}
+
+hr {
+    color: #cccccc;
+}
+
+.readmore {
+    text-align: right;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #242424;
+    color: #e4e4e4;
+  }
+  a {
+    color: rgb(107, 210, 95);
+  }
+  img {
+    filter: grayscale(30%);
+  }
+
+  .term {
+    background-color: #181818; 
+  }
+}
+
+</style>
+
+    
+    
+    
+      <script async src="/js/bpgdec8a.js"></script>
+      <script async src="/js/bpgdec8.js"></script>
+      <script async src="/js/bpgdec.js"></script>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    
+  </head>
+  
+  <body class="hack dark main container">
+    <header>
+  
+<nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+    <div class="nav-wrapper">
+        <a href="/" class="brand-logo center">NDLUG</a>
+        <ul id="nav-mobile" class="left hide-on-med-and-down">
+            
+            
+            <li class="">
+            <a itemprop="url" href="/"><span itemprop="name">Home</span></a>
+            </li>
+            
+            <li class="">
+            <a itemprop="url" href="/member/"><span itemprop="name">Members</span></a>
+            </li>
+            
+            <li class="active">
+            <a itemprop="url" href="/post/"><span itemprop="name">Posts</span></a>
+            </li>
+            
+        </ul>
+    </div>
+</nav>
+
+
+</header>
+    <main>
+  <article itemscope itemtype="http://schema.org/BlogPosting">
+    
+<meta itemprop="name" content="Intro to the Command Line">
+<meta itemprop="description" content="A lecture by Logan, followed by a group command line adventure.">
+
+
+<meta itemprop="datePublished" content="2019-10-01T17:00:00-04:00" />
+<meta itemprop="dateModified" content="2019-10-01T17:00:00-04:00" />
+<meta itemprop="wordCount" content="281">
+
+
+
+<meta itemprop="keywords" content="lug,command line," />
+
+    <header>
+      <h1 itemprop="headline">Intro to the Command Line</h1>
+      <p class="muted">
+        <svg style="margin-bottom:-3px" class="i-clock" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <circle cx="16" cy="16" r="14" />
+  <path d="M16 8 L16 16 20 20" />
+</svg>
+<span>2 minute read</span>
+<svg style="margin-bottom: -3px" class="i-edit" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+  <path d="M30 7 L25 2 5 22 3 29 10 27 Z M21 6 L26 11 Z M5 22 L10 27 Z" />
+</svg>
+
+  Published: <time datetime="2019-10-01T17:00:00-04:00">1 Oct, 2019</time>
+
+
+      </p>
+    </header>
+    
+      <blockquote itemprop="description">A lecture by Logan, followed by a group command line adventure.</blockquote>
+    
+    
+
+    <div itemprop="articleBody">
+      <p>Logan talks about the command line, and officers guide a command line adventure.</p>
+
+<h2 id="intro">Intro</h2>
+
+<p><center>
+<img src="logan-pres.jpg" alt="loganpres" width="800" height="auto"\>
+<br>
+<em>Logan gives an introduction to the command line.</em>
+<br>
+<br>
+</center></p>
+
+<p>Logan started off this week&rsquo;s meeting with an overview of the command line. He mentioned the terminal itself and the idea
+behind it, file structure from the perspective of the terminal, file permissions, and some common commands. He also
+brought up an essential facet of the command line: the Unix Philosophy.
+<br>
+<br>
+&ldquo;What is the Unix Philosophy?&rdquo;, you might ask.</p>
+
+<ol>
+<li>Write programs that do one thing and do it well.</li>
+<li>Write programs that work well with each other.</li>
+<li>Write programs that handle text streams, because that is a universal interface.</li>
+</ol>
+
+<p>Logan also briefly discussed more advanced techniques such as piping and i/o redirection. Check out Logan&rsquo;s slides below!
+<br>
+<br></p>
+
+<p><center>
+<iframe src="/ViewerJS/#/post/2019commandline/commandline.pdf" width='400' height='300' allowfullscreen webkitallowfullscreen></iframe>
+
+</center></p>
+
+<p><br></p>
+
+<h2 id="adventure">Adventure</h2>
+
+<p><center>
+<img src="loganakk.jpg" alt="logakk" width="800" height="auto"\>
+<br>
+<em>Two groups discuss approaches to the command line adventure&rsquo;s challenges.</em>
+<br>
+<br>
+</center></p>
+
+<p>After Logan&rsquo;s talk, attendees split up into groups to do a &ldquo;command line adventure&rdquo;, a series of challenges to be completed
+on our server, Appa. Each group worked together to complete the challenges using the information provided by Logan&rsquo;s talk
+and a &ldquo;cheatsheet&rdquo; of common commands. Challenges included things like changing permissions on a file, finding patterns
+of text in files, and searching the filesystem for files of a specific name.</p>
+
+<p><br></p>
+
+<p>Check out the command line adventure on our <a href="https://github.com/NDLUG/command-line-adventure">GitHub</a>.
+<br>
+<br></p>
+
+<p><center>
+<img src="zephcladventure.jpg" alt="zeph" width="800" height="auto"\>
+<br>
+<em>Zephan helps out some newer members of LUG with the command line adventure.</em>
+<br>
+</center></p>
+
+<h2 id="hacktoberfest-next-week">Hacktoberfest Next Week</h2>
+
+<p>Next week, our meeting will focus on Hacktoberfest, a Digital Ocean event that encourages contribution to open source. We will be
+helping members make contributions in the hopes that most (if not all) attendees have completed a pull request by the end of the meeting!</p>
+
+<p><br></p>
+    </div>
+    
+    <footer>
+      <hr>
+      <p>
+  Published
+  
+    
+      by <span itemprop="author"></span>
+    
+  
+  <time itemprop="datePublished" datetime="2019-10-01T17:00:00-04:00">
+    1 Oct, 2019
+  </time>
+  
+    in <span itemprop="articleSection"><a href="/categories/command-line/">command line</a> and <a href="/categories/lug/">lug</a></span>
+  
+  
+    and tagged <a href="/tags/command-line/">command line</a> and <a href="/tags/lug/">lug</a>
+  
+  using <span itemprop="wordCount">281</span> words.
+</p>
+
+      
+
+
+  <aside>
+    <header>Related Content</header>
+    <ul>
+      
+        <li><a href="/post/2019introtolinux/">Intro to Linux</a>
+        <time datetime="2M">2 minutes</time>
+      
+        <li><a href="/post/2019installfest/">2019 Installfest</a>
+        <time datetime="1M">1 minutes</time>
+      
+        <li><a href="/post/2019activitiesfair/">LUG at the 2019 Activities Fair</a>
+        <time datetime="1M">1 minutes</time>
+      
+        <li><a href="/post/2019election/">2019-2020 Elections</a>
+        <time datetime="1M">1 minutes</time>
+      
+        <li><a href="/post/hacktoberfest/">HacktoberFest and Contributing to Open Source</a>
+        <time datetime="1M">1 minutes</time>
+      
+        <li><a href="/post/2018election/">2018-2019 Elections</a>
+        <time datetime="1M">1 minutes</time>
+      
+    </ul>
+  </aside>
+
+
+    </footer>
+  </article>
+</main>
+    <footer>
+  
+</footer>
+  </body>
+</html>

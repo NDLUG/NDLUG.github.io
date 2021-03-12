@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hacktoberfest on Notre Dame Linux Users Group</title>
+    <link>http://ndlug.org/tags/hacktoberfest/</link>
+    <description>Recent content in Hacktoberfest on Notre Dame Linux Users Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 30 Sep 2020 10:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://ndlug.org/tags/hacktoberfest/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LugCast: Hacktoberfest is Here!</title>
+      <link>http://ndlug.org/post/2020hacktoberfest/</link>
+      <pubDate>Wed, 30 Sep 2020 10:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/post/2020hacktoberfest/</guid>
+      <description>&lt;p&gt;LUG discusses getting involved in this year&amp;rsquo;s Hacktoberfest and the struggles of being a maintainer during Hacktoberfest.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>HacktoberFest and Contributing to Open Source</title>
+      <link>http://ndlug.org/post/hacktoberfest/</link>
+      <pubDate>Thu, 25 Oct 2018 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/post/hacktoberfest/</guid>
+      <description>&lt;p&gt;In the midst of HacktoberFest, President Tim Burchfield (8bit) talks about contibuting to Open Source.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

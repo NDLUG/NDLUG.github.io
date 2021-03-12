@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Privacy on Notre Dame Linux Users Group</title>
+    <link>http://ndlug.org/categories/privacy/</link>
+    <description>Recent content in Privacy on Notre Dame Linux Users Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 08 Sep 2020 10:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://ndlug.org/categories/privacy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lugcast Episode 3</title>
+      <link>http://ndlug.org/post/2020privacypodcast/</link>
+      <pubDate>Tue, 08 Sep 2020 10:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/post/2020privacypodcast/</guid>
+      <description>&lt;p&gt;Mike, Bui, and Zephan talk about privacy online and how you can protect it!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

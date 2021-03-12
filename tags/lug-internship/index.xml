@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lug Internship on Notre Dame Linux Users Group</title>
+    <link>http://ndlug.org/tags/lug-internship/</link>
+    <description>Recent content in Lug Internship on Notre Dame Linux Users Group</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 10 Sep 2019 17:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="http://ndlug.org/tags/lug-internship/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019 Internship Panel</title>
+      <link>http://ndlug.org/post/internship-panel-2019/</link>
+      <pubDate>Tue, 10 Sep 2019 17:00:00 -0400</pubDate>
+      
+      <guid>http://ndlug.org/post/internship-panel-2019/</guid>
+      <description>&lt;p&gt;Kicking off this year&amp;rsquo;s LUG with introductions, background about the club,
+and a panel of upperclassmen who shared their summer internship experiences.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
