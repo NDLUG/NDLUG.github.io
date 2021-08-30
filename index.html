@@ -14,6 +14,7 @@ body {
     font-size: 1.2rem;
     font-family: monospace;
     max-width: 700px;
+    padding: 20px;
 }
 h1, body {
     color: #0c2340;
@@ -21,16 +22,28 @@ h1, body {
 h2, a:link, a:visited {
     color: #d39F10;
 }
+#ndlug {
+    float: right;
+}
+#next-to-ndlug {
+    clear: left;
+}
+@media (max-width: 400px) and (orientation: portrait) {
+    #ndlug {
+        float: none;
+    }
+}
 </style>
-    <div class"idek">
     <h1>Notre Dame Linux Users Group</h1>
-    <img src="img/ndlug.png" style="float: right;" height="300">
-    <h2>Who are we?</h2>
-    <p>The mission of the Linux Users Group of Notre Dame (NDLUG)
-    is to promote the use and awareness of open source projects,
-    including but not limited to Linux. We aim to provide a welcoming community
-    for any and all open source enthusiasts and help promote the Hacker Ethic,
-    whose tenets are central to the open source environment.</p>
+    <img id="ndlug" src="img/ndlug.png" height="250">
+    <div id="next-to-ndlug">
+        <h2>Who are we?</h2>
+        <p>The mission of the Linux Users Group of Notre Dame (NDLUG)
+        is to promote the use and awareness of open source projects,
+        including but not limited to Linux. We aim to provide a welcoming community
+        for any and all open source enthusiasts and help promote the Hacker Ethic,
+        whose tenets are central to the open source environment.</p>
+    </div>
     <h2>TLDR:</h2>
     <p>We love computing, technology, freedom, and of course, free stuff.
     Come join us to see how these things come together to form some
@@ -42,6 +55,5 @@ h2, a:link, a:visited {
     </a>
     <p>Chat with us on our <a href="https://regserv.ndlug.org">IRC server</a>!</p>
     <p>Or contact us at <a href="mailto://ndlug.nd.edu">ndlug@nd.edu</a>!</p>
-    </div>
 </body>
 </html>
