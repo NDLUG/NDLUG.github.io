@@ -20,7 +20,7 @@ h1, body {
     color: #0c2340;
 }
 h2, a:link, a:visited {
-    color: #d39F10;
+    color: #d39f10;
 }
 #ndlug {
     float: right;
@@ -28,8 +28,28 @@ h2, a:link, a:visited {
 #next-to-ndlug {
     clear: left;
 }
+#meeting {
+    float: left;
+}
+#meeting-details {
+    border: none;
+    border-spacing: 10px;
+    text-align: left;
+    margin: 0px auto;
+}
+#interest-form {
+    float: right;
+    margin-bottom: 1cm;
+}
+.la-icon {
+    width: 1em;
+    vertical-align: middle;
+}
+#footer {
+    clear: both;
+}
 @media (orientation: portrait) {
-    #ndlug {
+    #ndlug, #meeting, #interest-form {
         float: none;
     }
 }
@@ -49,11 +69,34 @@ h2, a:link, a:visited {
     Come join us to see how these things come together to form some
     really cool stuff in Linux and Open Source.</p>
     <p>All majors are welcome and encouraged to attend!</p>
+
+    <div id="meeting">
+        <h2>First Meeting:</h2>
+
+        <table id="meeting-details">
+            <tr>
+                <td><img class="la-icon" src="img/calendar.svg" alt="->"></td>
+                <td>Wednesday, September 14</td>
+            </tr>
+            <tr>
+                <td><img class="la-icon" src="img/clock.svg" alt="->"></td>
+                <td>6:30 - 7:30 p</td>
+            </tr>
+            <tr>
+                <td><img class="la-icon" src="img/map-marker.svg" alt="->"></td>
+                <td>Fitzpatrick 356A</td>
+            </tr>
+        </table>
+    </div>
+    <div id="interest-form">
+    <h2>Interest form:</h2>
     <a href="https://forms.gle/xSCQ8d4WQ11sLEqW7">
-        <h2>Interest form:</h2>
-        <img src="img/qr.png" height="200">
+        <img id="qr" src="img/qr.png" height="128">
     </a>
-    <p>Chat with us on our <a href="https://regserv.ndlug.org">IRC server</a>!</p>
-    <p>Or contact us at <a href="mailto://ndlug.nd.edu">ndlug@nd.edu</a>!</p>
+    </div>
+    <div id="footer">
+        <p>Chat with us on our <a href="https://regserv.ndlug.org">IRC server</a>!</p>
+        <p>Or contact us at <a href="mailto://ndlug.nd.edu">ndlug@nd.edu</a>!</p>
+    </div>
 </body>
 </html>
