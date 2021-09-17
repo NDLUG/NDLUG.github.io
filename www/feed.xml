@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Notre Dame Linux Users Group</title>
+    <link href="https://ndlug.org"/>
+    <link href="https://ndlug.org" rel="self"/>
+    <updated>2021-09-17T18:27:43-04:00</updated>
+    <id>https://ndlug.org</id>
+    <author>
+        <name>NDLUG</name>
+        <email>ndlug@nd.edu</email>
+    </author>
+    <generator>generate-feed.sh</generator>
+    <entry>
+        <title>Happy Birthday, Linux!</title>
+        <link href="https://ndlug.org/posts/www/posts/happy-birthday-linux.html"/>
+        <updated>2021-09-17T18:27:43-04:00</updated>
+        <id>https://ndlug.org/posts/www/posts/happy-birthday-linux.html</id>
+        <content type="html"><![CDATA[ <p>After a long hiatus, we held our first in-person meeting of the year. The theme: celebrating the 30th anniversary of Linus Torvald’s email announcing his now-famous operating system. Professor Bui kicked off the meeting with a brief <a href=https://docs.google.com/presentation/d/1xNAF_xXq0gYsokWBv1xVn70Y-1P0F-sgW6ObZliPXxg/edit?usp=sharing>presentation</a> about the club, its values, and the origins of Linux and free software. Then our president, Nolan, outlined some upcoming club events, such as an internship panel and an “open sauce in the wild” meeting. Officers led a discussion about members’ favorite Linux memories, which ranged from triumphant first installs on bare metal to PEBKAC-induced system breakages. No birthday party is complete without a cake (or party hats!), which was promptly cut and consumed over delightful conversation. With a headcount of 15 and the enthusiasm of ten times that, it’s safe to call this meeting a success.</p> <p><img src=../assets/img/discussion.jpg alt=members discussing linux memories></p> <p><img src=../assets/img/cake.jpg alt=cake!></p> ]]></content>
+    </entry>
+</feed>
