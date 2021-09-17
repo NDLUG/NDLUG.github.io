@@ -1,6 +1,6 @@
 ---
 title: Happy Birthday, Linux!
-date: 2021-09-16
+date: 2021-09-15
 author: Tom Faughnan (write-up), Paul Gierl (minutes)
 ---
 
