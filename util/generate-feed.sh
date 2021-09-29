@@ -27,7 +27,7 @@ EOF
 
 # do the entries
 
-POSTS="$(ls -1 www/posts/*.html)"
+POSTS="$(ls -1 docs/posts/*.html)"
 for file in $POSTS; do
     ENTRY_TITLE="$(sed -nE 's|<title>(.*)</title>|\1|p' "$file" | xargs)"
     ENTRY_LINK="${FEED_LINK}/posts/${file}"
