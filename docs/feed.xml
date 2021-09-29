@@ -3,7 +3,7 @@
     <title>Notre Dame Linux Users Group</title>
     <link href="https://ndlug.org"/>
     <link href="https://ndlug.org" rel="self"/>
-    <updated>2021-09-17T18:40:55-04:00</updated>
+    <updated>2021-09-29T11:02:36-04:00</updated>
     <id>https://ndlug.org</id>
     <author>
         <name>NDLUG</name>
@@ -12,9 +12,16 @@
     <generator>generate-feed.sh</generator>
     <entry>
         <title>Happy Birthday, Linux!</title>
-        <link href="https://ndlug.org/posts/www/posts/2021-09-15-happy-birthday-linux.html"/>
-        <updated>2021-09-17T18:40:55-04:00</updated>
-        <id>https://ndlug.org/posts/www/posts/2021-09-15-happy-birthday-linux.html</id>
+        <link href="https://ndlug.org/posts/docs/posts/2021-09-15-happy-birthday-linux.html"/>
+        <updated>2021-09-29T11:02:36-04:00</updated>
+        <id>https://ndlug.org/posts/docs/posts/2021-09-15-happy-birthday-linux.html</id>
         <content type="html"><![CDATA[ <p>After a long hiatus, we held our first in-person meeting of the year. The theme: celebrating the 30th anniversary of Linus Torvald’s email announcing his now-famous operating system. Professor Bui kicked off the meeting with a brief <a href=https://docs.google.com/presentation/d/1xNAF_xXq0gYsokWBv1xVn70Y-1P0F-sgW6ObZliPXxg/edit?usp=sharing>presentation</a> about the club, its values, and the origins of Linux and free software. Then our president, Nolan, outlined some upcoming club events, such as an internship panel and an “open sauce in the wild” meeting. Officers led a discussion about members’ favorite Linux memories, which ranged from triumphant first installs on bare metal to PEBKAC-induced system breakages. No birthday party is complete without a cake (or party hats!), which was promptly cut and consumed over delightful conversation. With a headcount of 15 and the enthusiasm of ten times that, it’s safe to call this meeting a success.</p> <p><img src=../assets/img/discussion.jpg alt=members discussing linux memories></p> <p><img src=../assets/img/cake.jpg alt=cake!></p> ]]></content>
+    </entry>
+    <entry>
+        <title>Linux at Work</title>
+        <link href="https://ndlug.org/posts/docs/posts/2021-09-22-linux-at-work.html"/>
+        <updated>2021-09-29T11:02:36-04:00</updated>
+        <id>https://ndlug.org/posts/docs/posts/2021-09-22-linux-at-work.html</id>
+        <content type="html"><![CDATA[ <p>For our second meeting, we invited a number of former and current LUG members to come and talk about their experiences using Linux and Open Source during their internships or in their careers.</p> <p>Guest Speakers included:</p> <ol type=1> <li>Michael Eisemann (<a href=https://www.nsa.gov/>NSA</a>, <em>LUG President Emeritus</em>)</li> <li>Sam Battalio (<a href=https://www.purestorage.com/>Pure Storage</a>, <em>LUG Officer emeritus</em>)</li> <li>Conor Nailos (<a href=https://www2.deloitte.com/us/en.html>Deloitte</a>, <em>LUG Officer emeritus</em>)</li> <li>Emory Smith (<a href=https://lucata.com/>Lucata</a>, <em>LUG Member emeritus</em>)</li> <li>Zephan Enciso (<a href=https://cse.nd.edu>ND CSE</a>, <em>LUG Officer emeritus</em>)</li> <li>Nolan McShea (<a href=https://www.hp.com>HP</a>, <em>LUG President</em>)</li> <li>John Sullivan (<a href=https://aerospace.org/>Aerospace Corporation</a>, <em>LUG Officer</em>)</li> <li>Joshua Tabar (Startup, <em>LUG Ally</em>)</li> <li>Jacob Mozdzen (<a href=https://microsoft.com>Microsoft</a>, <em>LUG Ally</em>)</li> </ol> <p>Along with our 9 panelsts, we had about 15 members in attendance to learn and discuss with our guest speakers. Highlights from the meeting include:</p> <ul> <li>Linux commands come in handy such as grep, cut, and others.</li> <li>Operating system principles help to understand the ideas in industry.</li> <li>Even navigating at a basic level on a Linux machine is extremely helpful, especially if you know how to read documentation and figure things out. </li> <li>You will inevitably hit red tape because some companies don’t want you doing whatever you want. Find ways to work around it or have other projects  to work on as well.</li> <li>Linux+ certificate may not matter as much. It can be better just by doing and working on projects. It depends a bit on the industry too - for example it may be more relevant for consultants to have certifications.</li> </ul> <p>Of course, you can catch all the wisdom of our panelists by watching the record on <a href=https://www.youtube.com/watch?v=pElotTEEm6Q>YouTube</a>:</p> <div style=text-align: center> <iframe width=560 height=315 src=https://www.youtube.com/embed/pElotTEEm6Q title=YouTube video player frameborder=0 allow=accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture allowfullscreen> </iframe> </div> ]]></content>
     </entry>
 </feed>
