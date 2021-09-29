@@ -21,8 +21,9 @@ Guest Speakers included:
 8. Joshua Tabar (Startup, *LUG Ally*)
 9. Jacob Mozdzen ([Microsoft], *LUG Ally*)
 
-Along with our 9 panelsts, we had about 15 members in attendance to learn and
-discuss with our guest speakers.  Highlights from the meeting include:
+Along with our 9 panelists, we had about 15 members in attendance to learn and
+discuss Linux and open source with our guest speakers.  Highlights from the
+meeting include:
 
 - Linux commands come in handy such as grep, cut, and others.
 - Operating system principles help to understand the ideas in industry.
