@@ -43,6 +43,8 @@ from big tech companies such as Google, Apple, and the like. A lot of these
 are lightweight and quick programs that have fanbases to help with whatever 
 issues occur. In celebration of FOSS we had Raising Cane's at the meeting!
 
+<img src="../assets/img/2021-09-29-sauce.jpg" alt="Saucy!">
+
 [Android]: https://www.android.com/
 [Firefox]: https://www.mozilla.org/en-US/firefox/new/
 [GIMP]: https://www.gimp.org/
