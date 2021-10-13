@@ -31,7 +31,7 @@ POSTS="$(ls -1 docs/posts/*.html)"
 for file in $POSTS; do
     ENTRY_TITLE="$(sed -nE 's|<title>(.*)</title>|\1|p' "$file" | xargs)"
     ENTRY_AUTHOR="$(sed -nE 's|<span class="date-author author">by (.*)</span>|\1|p' "$file" | xargs)"
-    ENTRY_LINK="${FEED_LINK}/posts/${file}"
+    ENTRY_LINK="${FEED_LINK}/posts/$(basename "$file")"
     ENTRY_UPDATED="$(date -Is -d @"$(stat -c %Y "$file")")"
     ENTRY_CONTENT="$(tr '\n' ' ' < "$file" | sed -nE 's|.*<div id="content">(.*)</div>.*|\1|p' | xargs)"
 
