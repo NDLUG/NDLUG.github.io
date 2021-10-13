@@ -42,6 +42,10 @@ footer {
 .la-icon {
     width: 1em;
     vertical-align: middle;
+    fill: #0c2340;
+}
+#home-icon {
+    padding-right: 5px;
 }
 ::selection {
 	background: #00823E;
