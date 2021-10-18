@@ -34,6 +34,9 @@ hr {
     background: #333;
     background-image: linear-gradient(to right, #eeeeee, #dddddd, #eeeeee);
 }
+.footnotes {
+    font-size: 0.8rem;
+}
 footer {
     text-align: center;
 	padding-top: 20px;
@@ -42,10 +45,6 @@ footer {
 .la-icon {
     width: 1em;
     vertical-align: middle;
-    fill: #0c2340;
-}
-#home-icon {
-    padding-right: 5px;
 }
 ::selection {
 	background: #00823E;
