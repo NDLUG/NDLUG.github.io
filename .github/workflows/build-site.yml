@@ -1,0 +1,32 @@
+name: Build Site
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs: 
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: install deps
+      run: sudo apt-get update && sudo apt-get install pandoc
+
+    - name: build site
+      run: make clean && make
+
+    - name: deploy back to gh
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        if [ -n "$GITHUB_HEAD_REF" ]; then git checkout "$GITHUB_HEAD_REF"; fi
+        git config --local user.name "GitHub Actions"
+        git config --local user.email "<>"
+        git add docs/
+        git commit -m 'GitHub Actions: build site' || echo 'nothing to commit'
+        git push origin || echo 'nothing to push'
