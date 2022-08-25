@@ -1,0 +1,51 @@
+body {
+    margin: 0px auto;
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: monospace;
+    max-width: 700px;
+    padding: 20px;
+}
+#home img {
+    margin-right: 5px;
+}
+h1, body {
+    color: #0c2340;
+}
+h1 {
+    text-align: center;
+}
+h2, a:link, a:visited {
+    color: #d39f10;
+}
+.date-author {
+    color: #d39f10;
+    font-size: 1.2rem;
+}
+#content img {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+}
+hr {
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #333;
+    background-image: linear-gradient(to right, #eeeeee, #dddddd, #eeeeee);
+}
+.footnotes {
+    font-size: 0.8rem;
+}
+footer {
+    text-align: center;
+	padding-top: 20px;
+    font-size: 0.8rem;
+}
+.la-icon {
+    width: 1em;
+    vertical-align: middle;
+}
+::selection {
+	background: #00823E;
+}
