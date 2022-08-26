@@ -21,6 +21,7 @@ jobs:
       run: make clean && make
 
     - name: deploy back to gh
+      if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
@@ -28,6 +29,7 @@ jobs:
         git config --local user.name "GitHub Actions"
         git config --local user.email "<>"
         git checkout gh-pages
+        make
         git add -f docs/
         git commit -m 'GitHub Actions: build site' || echo 'nothing to commit'
         git push origin gh-pages || echo 'nothing to push'
