@@ -1,5 +1,5 @@
 ---
-title: Linux at Work
+title: Pizza and Games
 date: 2023-03-08
 author: Sebastian Gutierrez (write-up & minutes)
 ---
