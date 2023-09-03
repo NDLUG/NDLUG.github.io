@@ -1,5 +1,5 @@
 ---
-title: Activities Fair 2023
+title: Activities Night 2023
 date: 2023-09-02
 author: Peter Bui
 ---
@@ -7,9 +7,8 @@ author: Peter Bui
 <img src="../assets/img/2023-09-02-activities-fair.jpg" alt="Tinjamin and Octavius">
 
 On **Tuesday, August 29, 2023**, officers **tinjamin**, **Octavius**, and
-**lychee** greeted Notre Dame and Saint Mary's students interested in the
-[Notre Dame Linux Users Group] at the [SAO Activities Night] held in the Notre
-Dame Stadium.
+**lychee** greeted students interested in the [Notre Dame Linux Users Group] at
+the [SAO Activities Night] held in the Notre Dame Stadium.
 
 <img src="../assets/img/2023-09-02-activities-fair-stuff.jpg" alt="Poster, Flyers, Stickers">
 
