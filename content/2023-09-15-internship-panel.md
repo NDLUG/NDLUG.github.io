@@ -20,7 +20,7 @@ our panelists:
 Answered some of your questions in preparation for this year's recruiting
 season. Here's a few more good pics for the mems:
 
-<img src="../assets/img/2023-09-15-guy-smiling-thumbs-up.jpg" alt="Happy camper">
+<img src="../assets/img/2023-09-15-guy-smiling-thumbs-up.jpg.0" alt="Happy camper">
 
 <img src="../assets/img/2023-09-15-lining-up-for-pizza.jpg" alt="Pizza line">
 
