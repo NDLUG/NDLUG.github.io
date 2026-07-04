@@ -1,0 +1,14 @@
+{{ define "main" }}
+<header class="site-header">
+    {{- with resources.Get site.Params.logoImage }}
+    <img class="site-logo" src="{{ .RelPermalink }}" alt="{{ site.Params.author }} logo" width="128" height="128">
+    {{- end }}
+    <h1 class="site-name">{{ site.Params.author }}</h1>
+    {{ partial "social.html" . }}
+    <a class="meetings-link" href="/meetings/">Meetings&nbsp;→</a>
+</header>
+
+<div class="content">
+    {{ .Content }}
+</div>
+{{ end }}

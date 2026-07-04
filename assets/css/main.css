@@ -1,0 +1,502 @@
+/* ===========================================================================
+   Notre Dame Linux User Group — site styles
+   Software-flavored: monospace throughout, Notre Dame gold + deep navy.
+   Narrow, terminal-like ~80-char measure. Classy and restrained, not loud.
+   Color scheme follows the device via prefers-color-scheme (no toggle).
+   Plain CSS — bundled with chroma.css and fingerprinted via Hugo Pipes.
+   =========================================================================== */
+
+/* ---------------------------------------------------------------------------
+   Self-hosted Commit Mono (Latin subset, woff2). Served from /fonts/.
+   No external font CDN — keeps the site private and offline-resilient.
+   --------------------------------------------------------------------------- */
+@font-face {
+    font-family: "Commit Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/commit-mono-latin-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Commit Mono";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/commit-mono-latin-400-italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Commit Mono";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url("/fonts/commit-mono-latin-500-normal.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Commit Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/fonts/commit-mono-latin-700-normal.woff2") format("woff2");
+}
+
+/* ---------------------------------------------------------------------------
+   Design tokens
+   --------------------------------------------------------------------------- */
+:root {
+    /* One monospace family for body and code — reinforces the terminal feel. */
+    --font-mono: "Commit Mono", ui-monospace, "SF Mono", "JetBrains Mono",
+        "Fira Mono", "Consolas", monospace;
+
+    /* Content measure: ~74 characters of the monospace body, terminal-like. */
+    --measure: 74ch;
+    --pad: 1.25rem;
+
+    /* Light palette: warm cream page, deep Notre Dame navy text, dark gold
+       accents used sparingly for links and hover. */
+    --bg: #f8f5ec;
+    --bg-subtle: #eee6d3;
+    --text: #0c2340;
+    /* ND navy */
+    --text-muted: #59617a;
+    --border: #ddd3b9;
+    --accent: #8a6500;
+    /* dark gold — legible on cream */
+    --accent-strong: #6f5200;
+    --chip-bg: #ece3cd;
+    --chip-text: #3d465c;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Dark palette: very deep navy page, warm off-white text, bright gold
+           accent that pops against the navy. */
+        --bg: #0a1729;
+        --bg-subtle: #122239;
+        --text: #ece6d5;
+        --text-muted: #9aa7bd;
+        --border: #223650;
+        --accent: #f2c14e;
+        /* ND gold, brightened for dark */
+        --accent-strong: #ffce5c;
+        --chip-bg: #16273f;
+        --chip-text: #cdd6e4;
+    }
+}
+
+/* ---------------------------------------------------------------------------
+   Base
+   --------------------------------------------------------------------------- */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 106.25%;
+    /* ~17px base — monospace reads a touch larger, so slightly below serif. */
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-mono);
+    font-weight: 400;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+    max-width: var(--measure);
+    margin-inline: auto;
+    padding: 2.5rem var(--pad) 4rem;
+}
+
+/* ---------------------------------------------------------------------------
+   Typography
+   --------------------------------------------------------------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.25;
+    font-weight: 700;
+    margin: 2.2rem 0 0.8rem;
+    letter-spacing: -0.01em;
+}
+
+h1 {
+    font-size: 1.85rem;
+}
+
+h2 {
+    font-size: 1.45rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1.05rem;
+}
+
+p,
+ul,
+ol,
+blockquote,
+figure,
+table {
+    margin: 0 0 1.1rem;
+}
+
+a {
+    color: var(--accent);
+    text-decoration-color: var(--border);
+    text-underline-offset: 0.15em;
+    transition: text-decoration-color 0.15s ease, color 0.15s ease;
+}
+
+a:hover {
+    text-decoration-color: var(--accent);
+    color: var(--accent-strong);
+}
+
+blockquote {
+    margin-inline: 0;
+    padding-left: 1rem;
+    border-left: 3px solid var(--accent);
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 2.5rem 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    margin: 1.6rem 0;
+}
+
+figure figcaption {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--text-muted);
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 0.45rem 0.6rem;
+    border-bottom: 1px solid var(--border);
+}
+
+thead th {
+    border-bottom: 2px solid var(--accent);
+    color: var(--text);
+}
+
+tbody tr:nth-child(odd) {
+    background: var(--bg-subtle);
+}
+
+/* ---------------------------------------------------------------------------
+   Code & syntax highlighting (GitHub palette; colors live in chroma.css).
+   Body is already monospace, so code just tightens size and gets a surface.
+   --------------------------------------------------------------------------- */
+code {
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+}
+
+/* Inline code (Goldmark does not wrap inline code in .chroma). */
+:not(pre)>code {
+    background: var(--bg-subtle);
+    padding: 0.1em 0.35em;
+    border-radius: 4px;
+}
+
+.highlight {
+    margin: 0 0 1.3rem;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+}
+
+/* Override Chroma's own background so code blocks sit on our navy/cream
+   surface rather than GitHub's default page color. */
+.highlight pre.chroma {
+    margin: 0;
+    padding: 1rem 1.1rem;
+    overflow-x: auto;
+    line-height: 1.5;
+    font-size: 0.86rem;
+    background: var(--bg-subtle);
+}
+
+/* ---------------------------------------------------------------------------
+   Heading anchor links (fade in on hover, click copies the section URL)
+   --------------------------------------------------------------------------- */
+.heading {
+    position: relative;
+}
+
+.heading-anchor {
+    margin-left: 0.4rem;
+    opacity: 0;
+    text-decoration: none;
+    color: var(--text-muted);
+    transition: opacity 0.15s ease, color 0.15s ease;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+
+.heading-anchor svg {
+    width: 0.7em;
+    height: 0.7em;
+}
+
+.heading:hover .heading-anchor,
+.heading-anchor:focus-visible {
+    opacity: 1;
+}
+
+.heading-anchor:hover {
+    color: var(--accent);
+}
+
+.heading-anchor.copied {
+    opacity: 1;
+    color: var(--accent);
+}
+
+/* ---------------------------------------------------------------------------
+   Landing-page header (club logo + name + community links)
+   --------------------------------------------------------------------------- */
+.site-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.site-logo {
+    width: 8rem;
+    height: 8rem;
+    object-fit: contain;
+    margin: 0 auto 1rem;
+    display: block;
+}
+
+.site-name {
+    margin: 0 0 0.6rem;
+    font-size: 1.9rem;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    margin: 0.8rem 0 1rem;
+    padding: 0;
+    list-style: none;
+}
+
+.social a {
+    display: inline-flex;
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.social a:hover {
+    color: var(--accent);
+    transform: translateY(-1px);
+}
+
+.social svg {
+    width: 1.6rem;
+    height: auto;
+}
+
+.meetings-link {
+    display: inline-block;
+    margin-top: 0.3rem;
+    font-size: 1.05rem;
+}
+
+/* ---------------------------------------------------------------------------
+   Meetings listing
+   --------------------------------------------------------------------------- */
+.page-title {
+    margin-top: 0;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.5rem;
+}
+
+.article-list {
+    list-style: none;
+    margin: 1.5rem 0 0;
+    padding: 0;
+}
+
+.article-card {
+    padding: 1.4rem 0;
+    border-bottom: 1px solid var(--border);
+}
+
+.article-card:first-child {
+    padding-top: 0.5rem;
+}
+
+.article-card h2 {
+    margin: 0 0 0.35rem;
+    font-size: 1.3rem;
+}
+
+.article-card h2 a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.article-card h2 a:hover {
+    color: var(--accent);
+}
+
+.article-desc {
+    margin: 0.4rem 0 0.6rem;
+    color: var(--text-muted);
+    /* Description trails off if too long. */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* ---------------------------------------------------------------------------
+   Meeting metadata (shared by listing cards and meeting header)
+   --------------------------------------------------------------------------- */
+.meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem 0.85rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.meta .sep {
+    opacity: 0.5;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.chip {
+    display: inline-block;
+    background: var(--chip-bg);
+    color: var(--chip-text);
+    font-size: 0.78rem;
+    line-height: 1.4;
+    padding: 0.1rem 0.55rem;
+    border-radius: 999px;
+    text-decoration: none;
+}
+
+.chip:hover {
+    color: var(--accent);
+}
+
+/* ---------------------------------------------------------------------------
+   Meeting header & body
+   --------------------------------------------------------------------------- */
+.article-header {
+    margin-bottom: 2rem;
+}
+
+.article-header h1 {
+    margin: 0 0 0.6rem;
+}
+
+.article-header .lead {
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    margin: 0 0 0.8rem;
+}
+
+.back-link {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.back-link:hover {
+    color: var(--accent);
+}
+
+/* ---------------------------------------------------------------------------
+   Tag taxonomy index (/tags/)
+   --------------------------------------------------------------------------- */
+.tag-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 1.5rem;
+    padding: 0;
+    list-style: none;
+}
+
+/* ---------------------------------------------------------------------------
+   Footer
+   --------------------------------------------------------------------------- */
+.site-footer {
+    border-top: 1px solid var(--border);
+    margin-top: 3rem;
+    padding-top: 1.2rem;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.site-footer a {
+    text-decoration: none;
+    color: var(--text-muted);
+}
+
+.site-footer a:hover {
+    color: var(--accent);
+}

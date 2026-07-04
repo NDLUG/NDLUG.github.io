@@ -1,0 +1,81 @@
+# Site configuration. See https://gohugo.io/getting-started/configuration/
+#
+# PLACEHOLDER: set baseURL to the final site URL before going live.
+#   - Project site:   https://<owner>.github.io/<repo>/   (note the sub-path)
+#   - User/org site:  https://<owner>.github.io/
+#   - Custom domain:  https://linux.nd.edu/   (add a static/CNAME file too)
+# The deploy workflow overrides this at build time via actions/configure-pages,
+# but keep it correct for local builds and previews.
+baseURL = "https://ndlug.github.io/"
+languageCode = "en-us"
+title = "Notre Dame Linux User Group"
+copyright = "© Notre Dame Linux User Group"
+
+# Color scheme is driven entirely by the device (prefers-color-scheme), and
+# lastmod is read from front matter — so Git info is intentionally disabled.
+enableGitInfo = false
+enableRobotsTXT = true
+
+# Meeting listings are sorted by date, newest first (see layouts).
+# Pagination for the meetings list.
+[pagination]
+  pagerSize = 10
+
+# Tag chips link to /tags/<tag>/ taxonomy pages.
+[taxonomies]
+  tag = "tags"
+
+# Read "Modified Date" from the front-matter `lastmod` field. Never from Git.
+# Falls back to file modification time, then Hugo's default, if absent.
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[params]
+  author = "Notre Dame Linux User Group"
+  description = "The Notre Dame Linux User Group — a student club for Linux, open source, and self-hosting. Meeting notes, materials, and schedule."
+  # Club logo for the landing-page header. Replace assets/images/logo.svg with
+  # the real club logo (e.g. logo.svg or logo.webp) and update this path.
+  logoImage = "images/logo.svg"
+
+  # Community / contact links, rendered as an icon row in the landing header.
+  # Order here is the order they appear. PLACEHOLDER: fill in real URLs.
+  [[params.social]]
+    name = "github"
+    label = "GitHub"
+    url = "https://github.com/ndlug"
+  [[params.social]]
+    name = "email"
+    label = "Email"
+    url = "mailto:ndlug-list@nd.edu"
+  [[params.social]]
+    name = "irc"
+    label = "IRC"
+    url = "ircs://irc.libera.chat/#ndlug"
+  [[params.social]]
+    name = "matrix"
+    label = "Matrix"
+    url = "https://matrix.to/#/#ndlug:matrix.org"
+  [[params.social]]
+    name = "mastodon"
+    label = "Mastodon"
+    url = "https://fosstodon.org/@ndlug"
+
+# Markup pipeline: Goldmark, with Chroma syntax highlighting using CSS classes
+# (GitHub light/dark stylesheet lives in assets/css/chroma.css).
+[markup]
+  [markup.goldmark.renderer]
+    # Allow raw HTML in Markdown (figures, captions). Content is authored by us.
+    unsafe = true
+  [markup.highlight]
+    noClasses = false
+    lineNos = false
+    tabWidth = 2
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+# Meeting listings and feeds order by date, newest first.
+[services]
+  [services.rss]
+    limit = -1
