@@ -1,5 +1,7 @@
 # Notre Dame Linux User Group — Website (Design Document)
 
+> This document authored by Claude. Be careful out there.
+
 ## Overview
 
 A statically rendered website for the Notre Dame Linux User Group (NDLUG),

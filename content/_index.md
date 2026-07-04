@@ -4,7 +4,11 @@ title = "NDLUG"
 
 ## About
 
+> Hi! This site is being built at the moment. Check back in one hundred years. - Sam
+
 TODO: Complete about section
+
+https://regserv.ndlug.org
 
 ## Schedule
 

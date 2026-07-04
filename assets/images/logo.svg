@@ -1,8 +1,0 @@
-<!-- PLACEHOLDER club logo. Terminal-prompt mark in Notre Dame navy + gold.
-     Replace with the real NDLUG logo (keep it roughly square) and point
-     params.logoImage at the new file. -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Notre Dame Linux User Group">
-  <rect width="128" height="128" rx="22" fill="#0c2340"/>
-  <text x="26" y="80" font-family="ui-monospace, 'SF Mono', 'JetBrains Mono', Consolas, monospace"
-        font-size="48" font-weight="700" fill="#c99700">&gt;_</text>
-</svg>

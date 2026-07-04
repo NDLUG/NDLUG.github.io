@@ -6,7 +6,7 @@
 #   - Custom domain:  https://linux.nd.edu/   (add a static/CNAME file too)
 # The deploy workflow overrides this at build time via actions/configure-pages,
 # but keep it correct for local builds and previews.
-baseURL = "https://ndlug.github.io/"
+baseURL = "https://ndlug.org/"
 languageCode = "en-us"
 title = "Notre Dame Linux User Group"
 copyright = "© Notre Dame Linux User Group"
@@ -35,14 +35,14 @@ enableRobotsTXT = true
   description = "The Notre Dame Linux User Group — a student club for Linux, open source, and self-hosting. Meeting notes, materials, and schedule."
   # Club logo for the landing-page header. Replace assets/images/logo.svg with
   # the real club logo (e.g. logo.svg or logo.webp) and update this path.
-  logoImage = "images/logo.svg"
+  logoImage = "images/lug-tux.png"
 
   # Community / contact links, rendered as an icon row in the landing header.
   # Order here is the order they appear. PLACEHOLDER: fill in real URLs.
   [[params.social]]
     name = "github"
     label = "GitHub"
-    url = "https://github.com/ndlug"
+    url = "https://github.com/NDLUG"
   [[params.social]]
     name = "email"
     label = "Email"
@@ -50,15 +50,15 @@ enableRobotsTXT = true
   [[params.social]]
     name = "irc"
     label = "IRC"
-    url = "ircs://irc.libera.chat/#ndlug"
+    url = "https://chat.ndlug.org"
   [[params.social]]
     name = "matrix"
     label = "Matrix"
-    url = "https://matrix.to/#/#ndlug:matrix.org"
+    url = "https://matrix.to/#/#lug:matrix.ndlug.org"
   [[params.social]]
     name = "mastodon"
     label = "Mastodon"
-    url = "https://fosstodon.org/@ndlug"
+    url = "https://social.ndlug.org/@ndlug"
 
 # Markup pipeline: Goldmark, with Chroma syntax highlighting using CSS classes
 # (GitHub light/dark stylesheet lives in assets/css/chroma.css).
