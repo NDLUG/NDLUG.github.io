@@ -40,14 +40,14 @@ Join the chat: [IRC Registration](https://regserv.ndlug.org)
 
 ## Officers
 
-| Position              | Member                                                        | Notes |
-|-----------------------|---------------------------------------------------------------|-------|
-| Advisor               | [pnutzh4x0r](https://pnutz.h4x0r.space/)                      | clicking on trees |
-| Prez                  | [sudo](https://samneisewander.com)                            | linux larper |
-| V. Prez               | [bob_tables](https://xkcd.com/327/)                           | never mention the box combo incident |
-| Secretary             | [abcd](https://aynmk7.github.io/site/)                        | poster design goat |
-| Vibes coordinator     | [hhiilleeyy](https://www.youtube.com/watch?v=N1YGgSjPByo)     | 😜✨🤪💖🤗☀️🌈🥹😊 |
-| Wheelman              | [alex shoe man](https://cobblerofshoes.github.io)             | "i'm a [wheelman](https://www.youtube.com/watch?v=MCVTcnTL7XU)" |
-| idk                   | [henryj099](https://henryjochaniewicz.com/)                   | tired of [sudo](https://samneisewander.com)'s bullshit |
+| Position              | Member                                                                    | Notes |
+|-----------------------|---------------------------------------------------------------            |-------|
+| Advisor               | [pnutzh4x0r](https://pnutz.h4x0r.space/)                                  | clicking on trees |
+| Prez                  | [sudo](https://samneisewander.com)                                        | linux larper |
+| V. Prez               | [bob_tables](https://xkcd.com/327/)                                       | never mention the box combo incident |
+| Secretary             | [abcd](https://aynmk7.github.io/site/)                                    | poster design goat |
+| [President](https://yld.me/raw/vvmv.txt)             | [hhiilleeyy](https://www.tiktok.com/@hileyy?_r=1&_t=ZT-97n1Ggt2jug)       | 😜✨🤪💖🤗☀️🌈🥹😊 |
+| Wheelman              | [alex shoe man](https://cobblerofshoes.github.io)                         | "i'm a [wheelman](https://www.youtube.com/watch?v=MCVTcnTL7XU)" |
+| idk                   | [henryj099](https://henryjochaniewicz.com/)                               | tired of [sudo](https://samneisewander.com)'s bullshit |
 
 > This website is free as in free beer, not as in freedom. Wait.
