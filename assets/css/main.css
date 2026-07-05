@@ -327,6 +327,7 @@ code {
 
 .social a {
     display: inline-flex;
+    gap: 4px;
     color: var(--text-muted);
     text-decoration: none;
     transition: color 0.15s ease, transform 0.15s ease;
