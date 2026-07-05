@@ -75,6 +75,10 @@ enableRobotsTXT = true
     endLevel = 4
     ordered = false
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
 # Meeting listings and feeds order by date, newest first.
 [services]
   [services.rss]
