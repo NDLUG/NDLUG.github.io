@@ -45,9 +45,9 @@ Join the chat: [IRC Registration](https://regserv.ndlug.org)
 | Advisor               | [pnutzh4x0r](https://pnutz.h4x0r.space/)                      | clicking on trees |
 | Prez                  | [sudo](https://samneisewander.com)                            | linux larper |
 | V. Prez               | [bob_tables](https://xkcd.com/327/)                           | never mention the box combo incident |
-| Poster specialist     | [abcd](https://aynmk7.github.io/site/)                        | not cs like that |
+| Secretary             | [abcd](https://aynmk7.github.io/site/)                        | poster design goat |
 | Vibes coordinator     | [hhiilleeyy](https://www.youtube.com/watch?v=N1YGgSjPByo)     | 😜✨🤪💖🤗☀️🌈🥹😊 |
-| Wheelman              | [alex shoe man](https://www.linkedin.com/in/alex-j-schumann)  | "i'm a [wheelman](https://www.youtube.com/watch?v=MCVTcnTL7XU)" |
+| Wheelman              | [alex shoe man](https://cobblerofshoes.github.io)             | "i'm a [wheelman](https://www.youtube.com/watch?v=MCVTcnTL7XU)" |
 | idk                   | [henryj099](https://henryjochaniewicz.com/)                   | tired of [sudo](https://samneisewander.com)'s bullshit |
 
 > This website is free as in free beer, not as in freedom. Wait.
