@@ -33,8 +33,6 @@ enableRobotsTXT = true
 [params]
   author = "Notre Dame Linux User Group"
   description = "The Notre Dame Linux User Group — a student club for Linux, open source, and self-hosting. Meeting notes, materials, and schedule."
-  # Club logo for the landing-page header. Replace assets/images/logo.svg with
-  # the real club logo (e.g. logo.svg or logo.webp) and update this path.
   logoImage = "images/lug-tux.png"
 
   # Community / contact links, rendered as an icon row in the landing header.

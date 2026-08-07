@@ -2,8 +2,8 @@
 {{- $pub := .Date.Format "2006-01-02" -}}
 {{- $mod := .Lastmod.Format "2006-01-02" -}}
 <div class="meta">
-  {{- with .Params.presenters }}
-  <span class="presenters">{{ delimit . ", " }}</span>
+  {{- with .Params.writers }}
+  <span class="writers">{{ delimit . ", " }}</span>
   <span class="sep" aria-hidden="true">·</span>
   {{- end }}
   <time datetime="{{ $pub }}">{{ .Date.Format "Jan 2, 2006" }}</time>

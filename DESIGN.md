@@ -185,7 +185,7 @@ site, and leaving it out keeps the Markdown pipeline and dependencies minimal.
 |---------------|-------------|----------------------------------------------------|
 | `title`       | string      | Meeting title / topic.                             |
 | `description` | string      | Short summary; used in listing and `<meta>` tags.  |
-| `presenters`  | list        | One or more presenter names.                       |
+| `writers`  | list        | One or more presenter names.                       |
 | `date`        | datetime    | Date the meeting was held (sort order and feed).   |
 | `lastmod`     | datetime    | Modified date. Authored in front matter (not Git). |
 | `tags`        | list        | Drives tag chips and tag taxonomy pages.           |
@@ -195,7 +195,7 @@ Derived (not authored):
   e.g. "6 min read".
 
 **Where metadata is shown:**
-- **On the meetings listing:** title, description, date, reading time, presenters,
+- **On the meetings listing:** title, description, date, reading time, writers,
   and tag chips for each entry. The **description trails off** (truncated with an
   ellipsis via CSS line-clamp) when it's too long for the listing.
 - **On the meeting header:** the same metadata displayed at the top of the meeting
@@ -400,7 +400,7 @@ without JS the anchor still works as a normal in-page link. The hover-reveal and
   via `.Paginate`, and renders each entry with
   [article-card.html](layouts/partials/article-card.html). Pagination UI uses Hugo's
   `_internal/pagination.html`.
-- [article-meta.html](layouts/partials/article-meta.html) prints presenters · date ·
+- [article-meta.html](layouts/partials/article-meta.html) prints writers · date ·
   "Updated …" (only when `lastmod`'s date differs from `date`) · reading time.
   Reading time is Hugo's [`.ReadingTime`](https://gohugo.io/methods/page/readingtime/).
 - [tags.html](layouts/partials/tags.html) renders chips linking to

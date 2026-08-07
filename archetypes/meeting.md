@@ -3,7 +3,7 @@ title = "{{ replace .File.ContentBaseName "-" " " | title }}"
 description = ""
 date = {{ .Date }}
 lastmod = {{ .Date }}
-presenters = []
+writers = []
 tags = []
 draft = true
 +++
