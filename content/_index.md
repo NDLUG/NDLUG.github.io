@@ -7,18 +7,18 @@ title = "NDLUG"
 
 ## Schedule
 
-| Date      | Topic                                                         | Presenter(s)                                  |
-|-----------|---------------------------------------------------------------|-----------------------------------------------|
-| -         | [Welcome Meeting](meetings/welcome)                           | [sudo](https://samneisewander.com)            |
-| -         | [Distros 101](meetings/distros-101)                           | [whgriff]()                                   |
-| -         | [What is Free Open Source Software?](meetings/what-is-foss)   | [bob_tables](https://xkcd.com/327/)           |
-| -         | FOSS Chat Applications                                        | -                                             |
-| -         | Something about embedded linux                                | bforseth                                      |
-| -         | VPS and NAS                                                   | [sudo](https://samneisewander.com)            |
-| -         | Data Sovereignty                                              | [bob_tables](https://xkcd.com/327/)           |
-| -         | FOSS Hall of Fame ft. Terry Davis                             | -                                             |
-| -         | History of Computer Science                                   | [henryj099](https://henryjochaniewicz.com/)   |
-| -         | Something about webapps                                       | Joshua Tighe                                  |
+| Date      | Topic                                                         | Presenter(s)                                           |
+|-----------|---------------------------------------------------------------|--------------------------------------------------------|
+| -         | [Welcome Meeting](meetings/welcome)                           | [sudo](https://samneisewander.com)                     |
+| -         | [Distros 101](meetings/distros-101)                           | [whgriff]()                                            |
+| -         | [What is Free Open Source Software?](meetings/what-is-foss)   | [bob_tables](https://xkcd.com/327/)                    |
+| -         | FOSS Chat Applications                                        | -                                                      |
+| -         | [Embedded Linux: Yocto Project](meetings/yocto-project)       | [bforseth](https://brandonfors.github.io/PersonalSite/)|
+| -         | VPS and NAS                                                   | [sudo](https://samneisewander.com)                     |
+| -         | Data Sovereignty                                              | [bob_tables](https://xkcd.com/327/)                    |
+| -         | FOSS Hall of Fame ft. Terry Davis                             | -                                                      |
+| -         | History of Computer Science                                   | [henryj099](https://henryjochaniewicz.com/)            |
+| -         | Something about webapps                                       | Joshua Tighe                                           |
 
 ## About
 
