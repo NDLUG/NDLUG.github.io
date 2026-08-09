@@ -1,7 +1,8 @@
 <footer class="site-footer">
-  <span>{{ now.Format "2006" }} {{ site.Params.author }}</span>
-  <span>
-    <a href="/meetings/">Meetings</a>
-    {{- with site.Home.OutputFormats.Get "rss" }} · <a href="{{ .RelPermalink }}">RSS</a>{{ end }}
-  </span>
+    <span>{{ now.Format "2006" }} {{ site.Params.author }}</span>
+    <span>
+        <a href="/meetings/">Meetings</a>
+        · <a href="/club-resources/">Resources</a>
+        {{- with site.Home.OutputFormats.Get "rss" }} · <a href="{{ .RelPermalink }}">RSS</a>{{ end }}
+    </span>
 </footer>
