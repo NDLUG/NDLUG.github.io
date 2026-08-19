@@ -10,8 +10,9 @@ draft = true
 
 ## Hugo
 
-This website is build using [Hugo](https://gohugo.io/). Hugo is a framework that constructs
-a static website from a directory tree containing folders, Markdown files, and images.
+This website is build using [Hugo](https://gohugo.io/). Hugo is a framework that
+constructs a static website from a directory tree containing folders, Markdown
+files, and images.
 
 Start the dev server:
 
