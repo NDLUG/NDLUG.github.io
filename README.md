@@ -1,39 +1,36 @@
-# Notre Dame Linux User Group — website
+# NDLUG Website
 
-> This document authored by Claude, edited by Sam. Be careful out there.
+## Contributors
 
-A statically rendered club site built with [Hugo](https://gohugo.io/) and a
-custom theme, deployed to GitHub Pages. See [DESIGN.md](DESIGN.md) for the
-full design.
+1. Read the [Contribution
+   Guidelines](https://ndlug.org/club-resources/contribution-guidelines)
+2. Switch to the main branch: `git switch main`.
+3. Create a new branch for your changes: `git checkout -b your-name/your-post`.
+4. Copy `content/meetings/template` to a new folder
+   `content/meetings/your-post`. The template contains a quick start guide to
+   help you understand how to use Hugo, the framework this website it built
+   with.
+5. After you make your changes, run `make fmt`.
+6. Add, commit, and push your changes.
+7. Open a pull request and add one of the officers as the reviewer and assignee.
+8. Once your changes have been reviewed, you will be assigned the PR. Make and
+   requested changes, then commit and pus them. Assign the PR back to the
+   reviewer. Most PRs should only have one feedback round, but the reviewer may
+   request additional changes at their discretion.
 
-## Develop
+## Maintainers
 
-Install Hugo:
-```zsh
-brew install hugo
-```
+- Make sure works in progress are labelled `draft = true` in the front matter.
+  This ensures subscribers to the RSS feed are only notified when finished posts
+  are released.
+- Pass all Markdown files through a spellchecker and formatter before approving
+  a PR and merging to `main`.
+- Please squash PRs into a single commit and use the "rebase and merge"
+  strategy.
 
-Run the dev server:
-```bash
-hugo server      # live-reload dev server at http://localhost:1313
-```
-
-## Add content
-
-Please work on content updates in a branch seperate from main.
-
-With Hugo, the site layout is based on the files and directories in `content/`. The pages are the `index.md` files.
-
-To adjust the:
-- **Landing page:** edit [content/_index.md](content/_index.md) — the About
-  section and the semester schedule table both live here.
-- **Meeting writeups:** Run `hugo new meetings/my-meeting/index.md`, then set
-  `draft = false`. Put figures/images (e.g. `figure0.webp`) alongside `index.md`
-  in the same folder and reference them with `![alt](figure0.webp "Caption")`. The stuff wrapped in `+++` at the top of the document is called "front matter", and describes metadata for the page. Besides that, everything is just plain markdown.
-
-When you are happy with your content changes, open a PR and assign the president.
-
-## Deploy
-
-Pushing to `main` builds and deploys to **GitHub Pages** via
-[.github/workflows/deploy.yml](.github/workflows/deploy.yml).
+The review process should go as follows. When you get assigned a PR, read the
+article and start a review in Github. Make comments on things like writing
+style, accuracy, structure, and completeness. Submit your review and assign the
+PR back to the original contributor. Once changes are received, the contributor
+should reassign the PR back to you. It is at your discretion to do further
+review rounds, but typically one round is sufficient.
