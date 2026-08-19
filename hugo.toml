@@ -19,7 +19,7 @@ enableRobotsTXT = true
 # Meeting listings are sorted by date, newest first (see layouts).
 # Pagination for the meetings list.
 [pagination]
-  pagerSize = 10
+  pagerSize = 25
 
 # Tag chips link to /tags/<tag>/ taxonomy pages.
 [taxonomies]
