@@ -76,7 +76,6 @@ Guidelines]({{<ref "/club-resources/contribution-guidelines">}})
 | Prez                                     | [sudo](https://samneisewander.com)                                  | linux larper                                                    |
 | V. Prez                                  | [bob_tables](https://xkcd.com/327/)                                 | never mention the box combo incident                            |
 | Secretary                                | [abcd](https://aynmk7.github.io/site/)                              | poster design goat                                              |
-| [President](https://yld.me/raw/vvmv.txt) | [hhiilleeyy](https://www.tiktok.com/@hileyy?_r=1&_t=ZT-97n1Ggt2jug) | 😜✨🤪💖🤗☀️🌈🥹😊                                              |
 | Wheelman                                 | [alex shoe man](https://cobblerofshoes.github.io)                   | "i'm a [wheelman](https://www.youtube.com/watch?v=MCVTcnTL7XU)" |
 | idk                                      | [henryj099](https://henryjochaniewicz.com/)                         | tired of [sudo](https://samneisewander.com)'s bullshit          |
 
