@@ -205,8 +205,16 @@ table {
     width: 100%;
     border-collapse: collapse;
     font-size: 0.95rem;
-    display: block;
-    overflow-x: auto;
+}
+
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.95rem;
+        display: block;
+        overflow-x: auto;
+    }
 }
 
 th,
