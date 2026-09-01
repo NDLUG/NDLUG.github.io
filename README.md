@@ -2,8 +2,8 @@
 
 ## Contributors
 
-1. Read the [Contribution
-   Guidelines](https://ndlug.org/club-resources/contribution-guidelines)
+1. Read the
+   [Contribution Guidelines](https://ndlug.org/club-resources/contribution-guidelines)
 2. Switch to the main branch: `git switch main`.
 3. Create a new branch for your changes: `git checkout -b your-name/your-post`.
 4. Copy `content/meetings/template` to a new folder
