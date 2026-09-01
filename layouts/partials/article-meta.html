@@ -2,15 +2,12 @@
 {{- $pub := .Date.Format "2006-01-02" -}}
 {{- $mod := .Lastmod.Format "2006-01-02" -}}
 <div class="meta">
-  {{- with .Params.writers }}
-  <span class="writers">{{ delimit . ", " }}</span>
-  <span class="sep" aria-hidden="true">·</span>
-  {{- end }}
-  <time datetime="{{ $pub }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-  {{- if ne $mod $pub }}
-  <span class="sep" aria-hidden="true">·</span>
-  <span>Updated {{ .Lastmod.Format "Jan 2, 2006" }}</span>
-  {{- end }}
-  <span class="sep" aria-hidden="true">·</span>
-  <span>{{ .ReadingTime }} min read</span>
+    {{- with .Params.writers }}
+    <span class="writers">{{ delimit . ", " }}</span>
+    {{- end }}
+    <time datetime="{{ $pub }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+    {{- if ne $mod $pub }}
+    <span>Updated {{ .Lastmod.Format "Jan 2, 2006" }}</span>
+    {{- end }}
+    <span>{{ .ReadingTime }} min read</span>
 </div>
