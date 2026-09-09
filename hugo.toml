@@ -44,11 +44,7 @@ enableRobotsTXT = true
   [[params.social]]
     name = "email"
     label = "Email"
-    url = "mailto:ndlug-list@nd.edu"
-  [[params.social]]
-    name = "irc"
-    label = "IRC"
-    url = "https://chat.ndlug.org"
+    url = "mailto:ndlug-officers-list@nd.edu"
   [[params.social]]
     name = "matrix"
     label = "Matrix"

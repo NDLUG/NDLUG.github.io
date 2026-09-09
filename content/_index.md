@@ -2,23 +2,26 @@
 title = "NDLUG"
 +++
 
-> ⚠️ Hi! This site is being built at the moment. Check back in one hundred
-> years. - Sam
-
 ## Schedule
 
-| Date | Topic                                                       | Presenter(s)                                            |
-| ---- | ----------------------------------------------------------- | ------------------------------------------------------- |
-| -    | [Welcome Meeting](meetings/welcome)                         | [sudo](https://samneisewander.com)                      |
-| -    | [Distros 101](meetings/distros-101)                         | [whgriff](<>)                                           |
-| -    | [What is Free Open Source Software?](meetings/what-is-foss) | [bob_tables](https://xkcd.com/327/)                     |
-| -    | FOSS Chat Applications                                      | -                                                       |
-| -    | [Embedded Linux: Yocto Project](meetings/yocto-project)     | [bforseth](https://brandonfors.github.io/PersonalSite/) |
-| -    | VPS and NAS                                                 | [sudo](https://samneisewander.com)                      |
-| -    | Data Sovereignty                                            | [bob_tables](https://xkcd.com/327/)                     |
-| -    | FOSS Hall of Fame ft. Terry Davis                           | -                                                       |
-| -    | History of Computer Science                                 | [henryj099](https://henryjochaniewicz.com/)             |
-| -    | Something about webapps                                     | Joshua Tighe                                            |
+> Dates, times, and locations subject to change. Please see the
+> [LUG Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y19hMmMzYzQ3YzdiZTc2YjI2YWU0NWZkZGU4OGZhMTllZmVkNmY4MjhkODQ5Njk0NjNlOWY4OWRmZjgwMzcxYjZkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
+> for the most up-to-date information.
+
+| Date  | Time   | Location    | Topic                                                          | Presenter(s)                                            |
+| ----- | ------ | ----------- | -------------------------------------------------------------- | ------------------------------------------------------- |
+| 9/16  | 7:00pm | 303 Cushing | [Welcome Meeting](meetings/welcome-fa26)                       | [sudo](https://sam.neisewander.com)                     |
+| 9/??  | -      | 303 Cushing | Memory Forensics (feat. [Volexity](https://www.volexity.com/)) | Guests from Volexity                                    |
+| 9/30  | 7:30pm | 303 Cushing | Distros 101                                                    | [whgriff](https://whgriff.com)                          |
+| 10/7  | 7:00pm | 303 Cushing | What is Free Open Source Software?                             | [bob_tables](https://xkcd.com/327/)                     |
+| 10/14 | 7:00pm | 303 Cushing | FOSS Chat Applications                                         | -                                                       |
+| 10/28 | 7:30pm | 303 Cushing | Embedded Linux: Yocto Project                                  | [bforseth](https://brandonfors.github.io/PersonalSite/) |
+| 11/3  | 7:00pm | 303 Cushing | Virtual Private Servers & Network Attached Storage             | [sudo](https://sam.neisewander.com)                     |
+| 11/11 | 7:00pm | 303 Cushing | Spring 2027 Course Review                                      | -                                                       |
+| 11/18 | 7:00pm | 303 Cushing | Data Sovereignty                                               | [bob_tables](https://xkcd.com/327/)                     |
+| 11/23 | 7:00pm | 303 Cushing | FOSS Hall of Fame ft. Terry Davis                              | -                                                       |
+| 12/2  | 7:00pm | 303 Cushing | Introduction to Computer Graphics                              | [henryj099](https://henryjochaniewicz.com/)             |
+| 12/8  | 7:00pm | 303 Cushing | Webapps                                                        | [Joshua Tighe](https://www.joshuatighe.dev/)            |
 
 ## About
 
@@ -28,22 +31,22 @@ limited to) Linux. At our meetings, club members volunteer to present on an
 interesting topic related to software, computer science, open source, or
 whatever they feel compelled to learn more about, and share that information
 with the club in the form of a slideshow, chalk talk, or workshop. We hope to
-provide oportunities for anyone interested software to grow in community with
+provide opportunities for anyone interested software to grow in community with
 their peers, immersion in CS culture, and knowledge in various areas of
 computing.
 
 **If you like computers, you should come to LUG**. You might find inspiration
-for a new personal project. You will definately meet extremely talented peers
+for a new personal project. You will definitely meet extremely talented peers
 who can help you grow. You might even volunteer to present, and finally have an
 excuse to sit down and learn about _that thing you've been wanting to dig into
 more, but never had the time_ to.
 
 Btw:
 
-- LUG does not collect dues.
+- LUG does not collect dues from members.
 - LUG often has food at meetings.
-- We don't care what you study; if you think a meeting topic is interesting,
-  show up! We'd love to have you.
+- We don't care what your major is or how experienced you are; if you think a
+  meeting topic is interesting, show up! We'd love to have you.
 - All forms of participation are optional. We actually don't even have a formal
   way of "becoming a member". In the spirit of open source, everything is
   volunteer.
@@ -52,10 +55,24 @@ Btw:
 
 ## Get in touch
 
-We also chat online over IRC/Matrix. If you don't know what that is, take a look
-at [FOSS Chat Applications](meetings/foss-chat-applications).
+Get club announcements by joining our mailing list:
+[LUG Google Group](https://groups.google.com/a/nd.edu/g/ndlug-mailing-list)
 
-Join the chat: [IRC Registration](https://regserv.ndlug.org)
+We also chat online on Matrix. Matrix is a federated, open-source messaging
+platform similar to Slack or Discord. To chat on Matrix, you have to make an
+account on a "homeserver", a self-hosted instance of Matrix that joins a
+federated network of other homeservers. LUG hosts a homeserver at
+`matrix.ndlug.org`. You can create an account and chat on our server using a
+client application, such as Element. LUG hosts an Element instance at
+`element.ndlug.org`.
+
+TL;DR make an account on our homeserver:
+[element.ndlug.org](https://element.ndlug.org)
+
+Join our Minecraft server at `minecraft3.ndlug.org`!
+
+- Dates/Times TBD. Right now it is up Mon/Fri from 8pm-10pm EST
+- The server is behind a whitelist. Please email the president your username.
 
 ## LLM Disclosure
 
@@ -70,13 +87,16 @@ Guidelines]({{<ref "/club-resources/contribution-guidelines">}})
 
 ## Officers
 
-| Position  | Member                                            | Notes                                                           |
-| --------- | ------------------------------------------------- | --------------------------------------------------------------- |
-| Advisor   | [pnutzh4x0r](https://pnutz.h4x0r.space/)          | clicking on trees                                               |
-| Prez      | [sudo](https://samneisewander.com)                | linux larper                                                    |
-| V. Prez   | [bob_tables](https://xkcd.com/327/)               | never mention the box combo incident                            |
-| Secretary | [abcd](https://aynmk7.github.io/site/)            | poster design goat                                              |
-| Wheelman  | [alex shoe man](https://cobblerofshoes.github.io) | "i'm a [wheelman](https://www.youtube.com/watch?v=MCVTcnTL7XU)" |
-| idk       | [henryj099](https://henryjochaniewicz.com/)       | tired of [sudo](https://samneisewander.com)'s bullshit          |
+| Position                          | Member                                            | Notes                                                                                       |
+| --------------------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| Advisor                           | [pnutzh4x0r](https://pnutz.h4x0r.space/)          | clicking on trees                                                                           |
+| Prez                              | [sudo](https://sam.neisewander.com)               | linux larper                                                                                |
+| Secretary                         | [abcdsweatshirt](https://aynmk7.github.io/site/)  | poster design goat                                                                          |
+| Assistant to the Regional Manager | [henryj099](https://henryjochaniewicz.com/)       | tired of [sudo](https://sam.neisewander.com)'s bullshit                                     |
+| V. Prez                           | [bob_tables](https://xkcd.com/327/)               | never mention the box combo incident                                                        |
+| (╯°□°)╯︵ ┻━┻                     | [whgriff](https://whgriff.com)                    | proud inventor of harmonic computing                                                        |
+| Media Manager                     | 24kfine                                           | thinks [bob_tables](https://xkcd.com/327/) has problematic opinions on meal swipe economics |
+| idk                               | Mochias                                           | i think his dad works at apple?? or smth??                                                  |
+| Wheelman                          | [alex shoe man](https://cobblerofshoes.github.io) | "i'm a [wheelman](https://www.youtube.com/watch?v=MCVTcnTL7XU)"                             |
 
 > This website is free as in free beer, not as in freedom. Wait.
