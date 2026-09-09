@@ -47,16 +47,16 @@ writeup may seem redundant, but it is meaningful because it acts as:
 
 ## Meeting formats
 
-Guidance on various meeting formats. We recommend you read the guidelines for
-the sections relevant to you, or skim all of them if you are unsure how you want
-to structure your meeting.
+Here is some guidance for various meeting formats. We recommend you read the
+guidelines for the sections relevant to you, or skim all of them if you are
+unsure how you want to structure your meeting.
 
 Dr. Thain is regarded as one of the best lecturers in the CSE department. Here
 are some things he does that you should do as well:
 
 - Mind the time.
 - Ask your audience questions. Some questions can be layups that make it easy to
-  participate (ex. what operating system do you use?). My favorite questions are
+  participate (ex. what operating system do you use?). The best questions are
   ones that are puzzling, or challenge your assumptions or understanding of a
   topic (ex. "how do you tell time?" or "can you kill a thread?").
 - Be interesting. dthain does jumping jacks, throws stuff, runs around,
