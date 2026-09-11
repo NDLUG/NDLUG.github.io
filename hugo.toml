@@ -1,15 +1,8 @@
 # Site configuration. See https://gohugo.io/getting-started/configuration/
-#
-# PLACEHOLDER: set baseURL to the final site URL before going live.
-#   - Project site:   https://<owner>.github.io/<repo>/   (note the sub-path)
-#   - User/org site:  https://<owner>.github.io/
-#   - Custom domain:  https://linux.nd.edu/   (add a static/CNAME file too)
-# The deploy workflow overrides this at build time via actions/configure-pages,
-# but keep it correct for local builds and previews.
 baseURL = "https://ndlug.org/"
 languageCode = "en-us"
-title = "Notre Dame Linux User Group"
-copyright = "© Notre Dame Linux User Group"
+title = "Notre Dame Linux Users Group"
+copyright = "© Notre Dame Linux Users Group"
 
 # Color scheme is driven entirely by the device (prefers-color-scheme), and
 # lastmod is read from front matter — so Git info is intentionally disabled.
@@ -31,8 +24,8 @@ enableRobotsTXT = true
   lastmod = ["lastmod", ":fileModTime", ":default"]
 
 [params]
-  author = "Notre Dame Linux User Group"
-  description = "The Notre Dame Linux User Group — a student club for Linux, open source, and self-hosting. Meeting notes, materials, and schedule."
+  author = "Notre Dame Linux Users Group"
+  description = "The Notre Dame Linux Users Group — a student club for Linux, open source, and self-hosting. Meeting notes, materials, and schedule."
   logoImage = "images/lug-tux.png"
 
   # Community / contact links, rendered as an icon row in the landing header.
