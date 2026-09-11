@@ -96,7 +96,7 @@ Guidelines]({{<ref "/club-resources/contribution-guidelines">}})
 | V. Prez                           | [bob_tables](https://xkcd.com/327/)               | never mention the box combo incident                                                        |
 | (╯°□°)╯︵ ┻━┻                     | [whgriff](https://whgriff.com)                    | proud inventor of harmonic computing                                                        |
 | Media Manager                     | 24kfine                                           | thinks [bob_tables](https://xkcd.com/327/) has problematic opinions on meal swipe economics |
-| idk                               | Mochias                                           | i think his dad works at apple?? or smth??                                                  |
+| idk                               | Mochias                                           | his dad DOES NOT work at apple                                                              |
 | Wheelman                          | [alex shoe man](https://cobblerofshoes.github.io) | "i'm a [wheelman](https://www.youtube.com/watch?v=MCVTcnTL7XU)"                             |
 
 > This website is free as in free beer, not as in freedom. Wait.
