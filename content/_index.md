@@ -8,20 +8,20 @@ title = "NDLUG"
 > [LUG Google Calendar](https://calendar.google.com/calendar/u/0?cid=Y19hMmMzYzQ3YzdiZTc2YjI2YWU0NWZkZGU4OGZhMTllZmVkNmY4MjhkODQ5Njk0NjNlOWY4OWRmZjgwMzcxYjZkQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20)
 > for the most up-to-date information.
 
-| Date  | Time   | Location    | Topic                                                          | Presenter(s)                                            |
-| ----- | ------ | ----------- | -------------------------------------------------------------- | ------------------------------------------------------- |
-| 9/16  | 7:00pm | 303 Cushing | [Welcome Meeting](meetings/welcome-fa26)                       | [sudo](https://sam.neisewander.com)                     |
-| 9/??  | -      | 303 Cushing | Memory Forensics (feat. [Volexity](https://www.volexity.com/)) | Guests from Volexity                                    |
-| 9/30  | 7:30pm | 303 Cushing | Distros 101                                                    | [whgriff](https://whgriff.com)                          |
-| 10/7  | 7:00pm | 303 Cushing | What is Free Open Source Software?                             | [bob_tables](https://xkcd.com/327/)                     |
-| 10/14 | 7:00pm | 303 Cushing | FOSS Chat Applications                                         | -                                                       |
-| 10/28 | 7:30pm | 303 Cushing | Embedded Linux: Yocto Project                                  | [bforseth](https://brandonfors.github.io/PersonalSite/) |
-| 11/3  | 7:00pm | 303 Cushing | Virtual Private Servers & Network Attached Storage             | [sudo](https://sam.neisewander.com)                     |
-| 11/11 | 7:00pm | 303 Cushing | Spring 2027 Course Review                                      | -                                                       |
-| 11/18 | 7:00pm | 303 Cushing | Data Sovereignty                                               | [bob_tables](https://xkcd.com/327/)                     |
-| 11/23 | 7:00pm | 303 Cushing | FOSS Hall of Fame ft. Terry Davis                              | -                                                       |
-| 12/2  | 7:00pm | 303 Cushing | Introduction to Computer Graphics                              | [henryj099](https://henryjochaniewicz.com/)             |
-| 12/8  | 7:00pm | 303 Cushing | Webapps                                                        | [Joshua Tighe](https://www.joshuatighe.dev/)            |
+| Date  | Time   | Location    | Topic                                                          | Presenter(s)                                                 |
+| ----- | ------ | ----------- | -------------------------------------------------------------- | ------------------------------------------------------------ |
+| 9/16  | 7:00pm | 303 Cushing | [Welcome Meeting](meetings/welcome-fa26)                       | [sudo](https://sam.neisewander.com)                          |
+| 9/22  | 5:30pm | 303 Cushing | Memory Forensics (feat. [Volexity](https://www.volexity.com/)) | Brennan Gould, Melka Konshie, Kerry Goodwine, Elizabeth Link |
+| 9/30  | 7:30pm | 303 Cushing | Distros 101                                                    | [whgriff](https://whgriff.com)                               |
+| 10/7  | 7:00pm | 303 Cushing | What is Free Open Source Software?                             | [bob_tables](https://xkcd.com/327/)                          |
+| 10/14 | 7:00pm | 303 Cushing | FOSS Chat Applications                                         | -                                                            |
+| 10/28 | 7:30pm | 303 Cushing | Embedded Linux: Yocto Project                                  | [bforseth](https://brandonfors.github.io/PersonalSite/)      |
+| 11/3  | 7:00pm | 303 Cushing | Virtual Private Servers & Network Attached Storage             | [sudo](https://sam.neisewander.com)                          |
+| 11/11 | 7:00pm | 303 Cushing | Spring 2027 Course Review                                      | -                                                            |
+| 11/18 | 7:00pm | 303 Cushing | Data Sovereignty                                               | [bob_tables](https://xkcd.com/327/)                          |
+| 11/23 | 7:00pm | 303 Cushing | FOSS Hall of Fame ft. Terry Davis                              | -                                                            |
+| 12/2  | 7:00pm | 303 Cushing | Introduction to Computer Graphics                              | [henryj099](https://henryjochaniewicz.com/)                  |
+| 12/8  | 7:00pm | 303 Cushing | Webapps                                                        | [Joshua Tighe](https://www.joshuatighe.dev/)                 |
 
 ## About
 
