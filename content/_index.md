@@ -12,7 +12,7 @@ title = "NDLUG"
 | ----- | ------ | ----------- | -------------------------------------------------------------- | ------------------------------------------------------------ |
 | 9/16  | 7:00pm | 303 Cushing | [Welcome Meeting](meetings/welcome-fa26)                       | [sudo](https://sam.neisewander.com)                          |
 | 9/22  | 5:30pm | 303 Cushing | Memory Forensics (feat. [Volexity](https://www.volexity.com/)) | Brennan Gould, Melka Konshie, Kerry Goodwine, Elizabeth Link |
-| 9/30  | 7:30pm | 303 Cushing | Distros 101                                                    | [whgriff](https://whgriff.com)                               |
+| 9/30  | 7:30pm | 303 Cushing | [Distros 101](meetings/distros-101)                             | [whgriff](https://whgriff.com)                               |
 | 10/7  | 7:00pm | 303 Cushing | What is Free Open Source Software?                             | [bob_tables](https://xkcd.com/327/)                          |
 | 10/14 | 7:00pm | 303 Cushing | FOSS Chat Applications                                         | -                                                            |
 | 10/28 | 7:30pm | 303 Cushing | Embedded Linux: Yocto Project                                  | [bforseth](https://brandonfors.github.io/PersonalSite/)      |
