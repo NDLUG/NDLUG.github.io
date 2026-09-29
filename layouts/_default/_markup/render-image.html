@@ -4,7 +4,7 @@
 {{- with .Page.Resources.GetMatch .Destination -}}
   {{- $src = .RelPermalink -}}
 {{- end -}}
-<figure>
+<figure style="display: flex; flex-direction: column; align-items: center;">
   <img src="{{ $src | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }} loading="lazy" decoding="async">
   {{- with .Title }}
   <figcaption>{{ . | safeHTML }}</figcaption>
