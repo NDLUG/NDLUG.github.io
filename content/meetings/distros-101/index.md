@@ -20,7 +20,7 @@ computer.
 
 First, let's look at some familiar diagrams.
 
-![Windows OS Stack](/images/fa26/distros101/windows_os_stack.png)
+![Windows OS Stack](windows_os_stack.png)
 
 This is the system stack of **Windows**. On a Windows machine, applications
 interface with **environment subsystems** and **dynamic link libraries**, making
@@ -31,7 +31,7 @@ communication protocol is defined in the
 
 ---
 
-![MacOS OS Stack](/images/fa26/distros101/mac_os_stack.png)
+![MacOS OS Stack](mac_os_stack.png)
 
 This is the system stack of **MacOS**. On a Mac, applications interface with
 various **frameworks**, both ones pre-included with the system and ones
@@ -48,7 +48,7 @@ The XNU Kernel is made of
 
 ---
 
-![Linux OS Stack](/images/fa26/distros101/linux_os_stack.png)
+![Linux OS Stack](linux_os_stack.png)
 
 This is the (probably familiar) software stack of a **Linux** machine.
 Typically, Linux has two general, but major layers between the hardware and
@@ -65,7 +65,7 @@ a trap table) are defined.
 
 ## The Distro Stack
 
-![Linux Distro Stack](/images/fa26/distros101/linux_distro_stack.png)
+![Linux Distro Stack](linux_distro_stack.png)
 
 For this, let's create a new stack of software applications that make up a Linux
 distribution. When people talk about a certain "distro", they typically refer to
@@ -87,18 +87,18 @@ the kernel is the core of the operating system. It provides **abstractions**
 such as _processes, threads, virtual memory, and filesystems_ such that
 applications can efficiently utilize hardware and interact with each other.
 
-Now, the main thing that makes Linux Linux is the
+Now, the main thing that makes Linux "Linux" is the
 [Linux Kernel](https://kernel.org/). However, distros can still customize this.
 
 Some distributions, such as [CachyOS](https://cachyos.org/) make tweaks to the
-kernel to optimize compile time and architecture building.
+kernel to optimize compilation time and architecture building.
 [Garuda Linux](https://garudalinux.org) uses the Zen Kernel which makes use of a
 different scheduling algorithm to provide lower latency during heavy I/O
 blocking operations.
 
 Other distributions choose to run a different kernel, such as
 [BSD Kernel](https://en.wikipedia.org/wiki/Berkeley_Software_Distribution).
-While this is not techincally Linux, it being UNIX-based makes it similar to the
+While this is not technically Linux, it being UNIX-based makes it similar to the
 Linux kernel, and distros such as [FreeBSD](https://freebsd.org) and
 [NetBSD](https://netbsd.org) are typically associated with other typical Linux
 distributions.
@@ -144,7 +144,7 @@ Some file systems include
 
 - **ext4:** The "default" file system option in Linux. It can handle files as
   large as 16TiB. One key feature is **journaling**, where file changes are
-  stored in a journal to ensure consistency and repairability.
+  stored in a journal to provide crash consistency.
 - **xfs:** The larger-file complement to **ext4**. It is proficient with
   parallel I/O and is good with many storage devices. It's max file size is 8
   EiB.
@@ -198,7 +198,7 @@ itself. There are two main display servers in use today.
 **X11** is the older option. It operates as a monolithic display server, where a
 single instance of X controls rendering and hardware interaction for all
 applications. This means there is no separation between apps, and apps can
-listen to other apps' hardware communcation.
+listen to other apps' hardware communication.
 
 **Wayland** is the newer option. It operates as a micro-display server in the
 sense that each application is isolated in its communication stream. However,
@@ -238,11 +238,11 @@ Some currently notable desktop environments include
 [GNOME](https://www.gnome.org/), [KDE Plasma](https://kde.org/plasma-desktop/),
 and [XFCE](https://www.xfce.org/) (shown below).
 
-![GNOME](/images/fa26/distros101/gnome_de.png)
+![GNOME](gnome_de.png)
 
-![KDE Plasma](/images/fa26/distros101/kde_de.png)
+![KDE Plasma](kde_de.png)
 
-![XFCE](/images/fa26/distros101/xfce_de.png)
+![XFCE](xfce_de.png)
 
 ---
 
@@ -262,7 +262,7 @@ For some inspiration, check out [r/unixporn](https://reddit.com/r/unixporn/).
 There are [a lot](https://en.wikipedia.org/wiki/List_of_Linux_distributions) of
 Linux distributions today.
 
-![Distro Family Tree](/images/fa26/distros101/distro_family_tree.png)
+![Distro Family Tree](distro_family_tree.png)
 
 Here's a diagram of some of the notable ones. Most distributions are a
 downstream of **RHEL/Fedora**, **Debian**, or **Arch**. But, many exist.
