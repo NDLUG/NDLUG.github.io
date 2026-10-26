@@ -15,7 +15,7 @@ title = "NDLUG"
 | 9/30      | 7:30pm     | 303 Cushing            | [Distros 101](meetings/distros-101)                            | [whgriff](https://whgriff.com)                                                                               |
 | 10/7      | 7:00pm     | 303 Cushing            | What is Free Open Source Software?                             | [bob_tables](https://xkcd.com/327/)                                                                          |
 | ~~10/14~~ | ~~7:00pm~~ | ~~119 DeBartolo Hall~~ | ~~FOSS Chat Applications (cancelled)~~                         | ~~[bob_tables](https://xkcd.com/327/), [sudo](https://sam.neisewander.com), [whgriff](https://whgriff.com)~~ |
-| 10/28     | 7:30pm     | 303 Cushing            | Embedded Linux: Yocto Project                                  | [bforseth](https://brandonfors.github.io/PersonalSite/)                                                      |
+| 10/28     | 7:00pm     | 303 Cushing            | Embedded Linux: Yocto Project                                  | [bforseth](https://brandonfors.github.io/PersonalSite/)                                                      |
 | 11/3      | 7:00pm     | 303 Cushing            | Virtual Private Servers & Network Attached Storage             | [sudo](https://sam.neisewander.com)                                                                          |
 | 11/11     | 7:00pm     | 303 Cushing            | Spring 2027 Course Review                                      | -                                                                                                            |
 | 11/18     | 7:00pm     | 303 Cushing            | Data Sovereignty                                               | [bob_tables](https://xkcd.com/327/)                                                                          |
@@ -70,8 +70,6 @@ TL;DR make an account on our homeserver:
 [element.ndlug.org](https://element.ndlug.org)
 
 Join our Minecraft server at `minecraft3.ndlug.org`!
-
-- Dates/Times TBD. Right now it is up Mon/Fri from 8pm-10pm EST
 - The server is behind a whitelist. Please email the president your username.
 
 ## LLM Disclosure
