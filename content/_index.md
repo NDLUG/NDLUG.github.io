@@ -70,6 +70,7 @@ TL;DR make an account on our homeserver:
 [element.ndlug.org](https://element.ndlug.org)
 
 Join our Minecraft server at `minecraft3.ndlug.org`!
+
 - The server is behind a whitelist. Please email the president your username.
 
 ## LLM Disclosure
