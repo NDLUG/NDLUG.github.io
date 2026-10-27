@@ -63,7 +63,9 @@ Yocto Project is an open source project built specifically to customize the
 Linux kernel and create a Linux image specifically tailored to an Embedded Linux
 application. It contains a variety of commonly used tools and features that
 allow you to (relatively) quickly customize the linux kernel through use of
-standard patterns defined by the project. Yocto not only allows you to take
+standard patterns defined by the project. OpenEmbedded is an open source build
+system designed specifically for creating Embedded Linux distributions and is
+what Yocto Project uses to build an image. Yocto not only allows you to take
 pieces of commonly used and battle tested software directly from the linux
 repository, but is also considered industry standard itself and has a vast
 network of support. Companies that sell embedded linux SoCs often will have open
@@ -80,6 +82,35 @@ different hardware. For example, a vendor might provide a board support package
 layer. Both can be packaged and classified as a layer despite the different size
 and content.
 
+# Releases
+
+Like any other piece of software, Yocto Project is versioned. When a Yocto
+version is released, yocto layer package versions are locked in and are
+compatable with eachother. Only fixes are applied and no major changes are made
+to packages. From there, developers either create new layers or adapt existing
+layers to work with specific versions. This often involves creating a branch
+within the repository named as the release name and modifying/updating source
+code within the layer to work with the designated packages that it depends on.
+Once a layer functions as expected with the designated packages, the layer is
+ready to be integrated with any other project that uses the same release
+version. Combining layers from different releases can result in undefined
+behavior and is something that should be avoided.
+
+# Yocto Provided Layers
+
+Yocto project provides a few layers to serve either as necessary building blocks
+or references for building your own layers.
+
+1. meta (from openembedded-core) -> contains a plethora of foundational packages
+   that are necessary for every Yocto linux system (ex: systemd, busybox)
+2. meta-poky -> an example distribution layer
+3. meta-yocto-bsp -> an example bsp layer
+
+meta-openembedded is a collection of layers that contains commonly used
+utilities and is something vendor layers often depend on.
+
+![Layer Diagram](https://www.wasilzafar.com/images/series/embedded-systems/yocto-project-layer-architecture.webp)
+
 # Common Components
 
 There are a few key pieces to our Yocto build system that determine what the
@@ -89,25 +120,20 @@ Configuration Files:
 
 - Hold global defenitions of variables
 - Defines what to build and what to put in a particular image
-- Can be used to select build behavior Recipe:
+- Can be used to select build behavior
+
+Recipe:
+
 - The common form of metadata stored in layers that will contain instructions
   for building packages to put into the final binary
 - Defines dependancies, where to get the source code, and which patches to apply
-  Layers:
-- A collection of related recipies that build _something_
+
+Layers:
+
+- A collection of related recipes that build _something_
 - Layers are hierarchical in that they can be stacked, and layers higher on the
   stack can overwrite code and configuration within previous ones, allowing you
   to make changes to layers that aren't your own.
-
-# Yocto Provided Layers
-
-Yocto project provides a few layers to serve either as necessary building blocks
-or references for building your own layers.
-
-1. openembedded-core aka meta -> contains a plethora of foundational packages
-   that are necessary for every Yocto linux system (ex: systemd, busybox)
-2. meta-poky -> an example distribution layer
-3. meta-yocto-bsp -> an example bsp layer
 
 # Recipe Overview
 
@@ -120,15 +146,21 @@ example. Recipes are the most fundamental building block for this build system,
 providing instructions on taking any piece of software from a repository,
 modifying it, and compiling it for integration into the image.
 
-Modifying recipes `.bbapend`
+Since layers are heirarchical, recipes within upper layers (our custom layers)
+can overwrite recipes within previous layers. This enables you to interact with
+and configure recipes within previous layers which arent yours. Making direct
+modifications to someone elses layer within your build system is bad practice
+since the layer will no longer match its current upstream version. Modifying
+recipes within your own custom layer allows the entire build to become easily
+reproducable.
 
 Making modifications to source code within layers that aren't yours is an
-important step especially when you want to use someone else's kernel. `devtool`
-can facilitate this. To create patches, you first need to generate a workspace
-which will pop up as a directory in your project. You can then navigate to that
-workspace and make modifications using git just as you would with any other
-software project. You can then navigate back to your project and use `devtool`
-to generate patches for your recipe based on your commit history.
+important step especially when you want to use someone else's kernel or distro.
+`devtool` can facilitate this. To create patches, you first need to generate a
+workspace which will pop up as a directory in your project. You can then
+navigate to that workspace and make modifications using git just as you would
+with any other software project. You can then navigate back to your project and
+use `devtool` to generate patches for your layer based on your commit history.
 
 ![Recipe](https://docs.yoctoproject.org/_images/recipe-workflow.png)
 
@@ -149,17 +181,15 @@ into our custom image.
 
 ![Yocto Build Diagram](https://docs.yoctoproject.org/_images/yp-flow-diagram.svg)
 
-# Releases
+# What Yocto Project Outputs
 
-When a Yocto version is released, base layer package versions are locked in.
-From there, developers either create new layers or adapt existing layers to work
-with specific versions. This often involves creating a branch within the
-repository named as the release name and modifying/updating source code within
-the layer to work with the designated packages that it depends on. Once a layer
-functions as expected with the designated packages, the layer is ready to be
-integrated with any other project that uses the same release version. Combining
-layers from different releases can result in undefined behavior and is something
-that should be avoided.
+Short answer: whatever you want. You define what yocto project builds and
+outputs but the majority of the time you'll be producing a linux image that you
+can flash to your SoC along with some other build artifacts that you can use to
+analyze your build.
+
+You can also produce an SDK that is compatable with your custom image which you
+can use to compile code to be run on your embedded linux machine.
 
 # Design Pattern
 
@@ -195,21 +225,13 @@ containing the source code I want to edit within `meta-toradex-bsp-common`. I
 can then modify the recipe and create patches which change the device tree of
 the kernel in order to assign pins that interface with my hardware device.
 
-I want to use Toradex OS, a lightweight distribution provided by the company
-Toradex, as a starting point for my own OS since I am working with an Apalis
-IMX8 SoC. I first include the `meta-toradex-distro` layer and stasify its
-dependancies. However, this distro comes with packages to support a graphical
-interface but my device will be headless. I can find the recipe within
-`meta-toradex-distro`, create a recipe of the same name within my own layer (the
-same one that we used to modify the BSP) and create a `.bbappends` file that
-excludes that package from the image.
-
-# What Yocto Project Outputs
-
-Short answer: whatever you want. You define what yocto project builds and
-outputs but the majority of the time you'll be producing a linux image that you
-can flash to your SoC along with some other build artifacts that you can use to
-analyze your build.
+I want to use Torizon OS, an open source lightweight linux distro, as a starting
+point for my own OS since I am working with an Apalis IMX8 SoC. I first include
+the `meta-toradex-distro` layer and stasify its dependancies. However, this
+distro comes with packages to support a graphical interface but my device will
+be headless. I can find the recipe within `meta-toradex-distro`, create a recipe
+of the same name within my own layer (the same one that we used to modify the
+BSP) and create a `.bbappends` file that excludes that package from the image.
 
 # Sum Up
 
