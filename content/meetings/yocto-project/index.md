@@ -5,7 +5,7 @@ date = 2026-10-27
 lastmod = 2026-10-27
 writers = ["Brandon Forseth"]
 tags = ["Embedded Linux", "Operating Systems"]
-draft = true
+draft = false
 +++
 
 # What is Embedded Linux?
