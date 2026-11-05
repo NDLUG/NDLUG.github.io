@@ -20,7 +20,7 @@ title = "NDLUG"
 | 11/11     | 7:00pm     | 303 Cushing            | Spring 2027 Course Review                                      | -                                                                                                            |
 | 11/18     | 7:00pm     | 303 Cushing            | Data Sovereignty                                               | [bob_tables](https://xkcd.com/327/)                                                                          |
 | 11/23     | 7:00pm     | 303 Cushing            | FOSS Hall of Fame ft. Terry Davis                              | -                                                                                                            |
-| 12/2      | 7:00pm     | 303 Cushing            | Introduction to Computer Graphics                              | [henryj099](https://henryjochaniewicz.com/)                                                                  |
+| 12/2      | 7:00pm     | 303 Cushing            | Esoteric Programming Languages                              | [henryj099](https://henryjochaniewicz.com/)                                                                  |
 | 12/8      | 7:00pm     | 303 Cushing            | Webapps                                                        | [Joshua Tighe](https://www.joshuatighe.dev/)                                                                 |
 
 ## About
