@@ -54,25 +54,30 @@ application like the ones I just described.
 
 # Why Yocto Project?
 
-You're probably familiar with well known distributions like [Ubuntu](https://en.wikipedia.org/wiki/Ubuntu) or [Red Hat](https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux).
-These distros present a problem. They are general purpose. They come with software
-for graphics, keyboard drivers, a package manager, and so many other
-pieces of software that you _might_ need in a day to day scenario. Even [Raspian
-OS](https://en.wikipedia.org/wiki/Raspberry_Pi_OS), a distribution designed for the Raspberry Pi development boards, contains
-too much software that our embedded product won't need on a daily basis. So, how
-do we create a distro that suits our unique scenario and only includes specific
-pieces of software we need?
+You're probably familiar with well known distributions like
+[Ubuntu](https://en.wikipedia.org/wiki/Ubuntu) or
+[Red Hat](https://en.wikipedia.org/wiki/Red_Hat_Enterprise_Linux). These distros
+present a problem. They are general purpose. They come with software for
+graphics, keyboard drivers, a package manager, and so many other pieces of
+software that you _might_ need in a day to day scenario. Even
+[Raspian OS](https://en.wikipedia.org/wiki/Raspberry_Pi_OS), a distribution
+designed for the Raspberry Pi development boards, contains too much software
+that our embedded product won't need on a daily basis. So, how do we create a
+distro that suits our unique scenario and only includes specific pieces of
+software we need?
 
-[Yocto Project](https://en.wikipedia.org/wiki/Yocto_Project) is an open source project built specifically to customize the
-Linux kernel and create a Linux image specifically tailored to an embedded Linux
-application. It contains a variety of commonly used tools and features that
-allow you to (relatively) quickly customize the Linux kernel through use of
-standard patterns defined by the project. [OpenEmbedded](https://en.wikipedia.org/wiki/OpenEmbedded) is an open source build
-system designed specifically for creating Embedded Linux distributions and is
-what Yocto Project uses to build an image. Yocto not only allows you to take
-pieces of commonly used and battle tested software directly from the Linux
-repository, but is also considered industry standard itself and has a vast
-network of support. Companies that sell embedded Linux [SoCs](https://en.wikipedia.org/wiki/System_on_a_chip) often will have open
+[Yocto Project](https://en.wikipedia.org/wiki/Yocto_Project) is an open source
+project built specifically to customize the Linux kernel and create a Linux
+image specifically tailored to an embedded Linux application. It contains a
+variety of commonly used tools and features that allow you to (relatively)
+quickly customize the Linux kernel through use of standard patterns defined by
+the project. [OpenEmbedded](https://en.wikipedia.org/wiki/OpenEmbedded) is an
+open source build system designed specifically for creating Embedded Linux
+distributions and is what Yocto Project uses to build an image. Yocto not only
+allows you to take pieces of commonly used and battle tested software directly
+from the Linux repository, but is also considered industry standard itself and
+has a vast network of support. Companies that sell embedded Linux
+[SoCs](https://en.wikipedia.org/wiki/System_on_a_chip) often will have open
 source Yocto layers that do the hard part of making Linux work on their board.
 
 # The Layer Model
@@ -95,10 +100,10 @@ to packages. From there, developers either create new layers or adapt existing
 layers to work with specific versions. This often involves creating a branch
 within the repository named as the release name and modifying/updating source
 code within the layer to work with the designated packages that it depends on.
-Once a layer functions as expected with the designated packages, it is
-ready to be integrated with any other project that uses the same release
-version. Combining layers from different releases can result in undefined
-behavior and is something that should be avoided.
+Once a layer functions as expected with the designated packages, it is ready to
+be integrated with any other project that uses the same release version.
+Combining layers from different releases can result in undefined behavior and is
+something that should be avoided.
 
 # Yocto Provided Layers
 
@@ -141,30 +146,31 @@ build system will construct and how.
 
 # Recipe Overview
 
-**Recipes** (`.bb` files) define how a given piece of source code should be fetched,
-unpacked, patched, configured, compiled, and packaged for integration into your
-Linux image. Yocto provides tools like `devtool` and `recipetool` to generate
-basic recipe skeletons, but I've found it's often more beneficial to try to find
-someone who has done something the same or similar and take their recipe as an
-example. Recipes are the most fundamental building block for this build system,
-providing instructions on taking any piece of software from a repository,
-modifying it, and compiling it for integration into the image.
+**Recipes** (`.bb` files) define how a given piece of source code should be
+fetched, unpacked, patched, configured, compiled, and packaged for integration
+into your Linux image. Yocto provides tools like `devtool` and `recipetool` to
+generate basic recipe skeletons, but I've found it's often more beneficial to
+try to find someone who has done something the same or similar and take their
+recipe as an example. Recipes are the most fundamental building block for this
+build system, providing instructions on taking any piece of software from a
+repository, modifying it, and compiling it for integration into the image.
 
 Since layers are hierarchical, recipes within upper layers (our custom layers)
 can overwrite recipes within previous layers. This enables you to interact with
 and configure recipes within previous layers which aren't yours. Making direct
-modifications to another developer's layer within your build system is bad practice
-since the layer will no longer match its current upstream version. Modifying
-recipes within your own custom layer allows the entire build to become easily
-reproducible.
+modifications to another developer's layer within your build system is bad
+practice since the layer will no longer match its current upstream version.
+Modifying recipes within your own custom layer allows the entire build to become
+easily reproducible.
 
 Making modifications to source code within layers that aren't yours is an
-important step especially when you want to use another developer's kernel or distro.
-`devtool` can facilitate this. To create patches, you first need to generate a
-workspace which will pop up as a directory in your project. You can then
-navigate to that workspace and make modifications using `git` just as you would
-with any other software project. You can then navigate back to your project and
-use `devtool` to generate patches for your layer based on your commit history.
+important step especially when you want to use another developer's kernel or
+distro. `devtool` can facilitate this. To create patches, you first need to
+generate a workspace which will pop up as a directory in your project. You can
+then navigate to that workspace and make modifications using `git` just as you
+would with any other software project. You can then navigate back to your
+project and use `devtool` to generate patches for your layer based on your
+commit history.
 
 ![Recipe](recipe-workflow.webp)
 
@@ -184,7 +190,6 @@ patches we defined, sets configuration options we defined, builds the source
 code, copies files to target directories, and packages files for integration
 into our custom image.
 
-
 # What Yocto Project Outputs
 
 Short answer: whatever you want. You define what yocto project builds and
@@ -198,13 +203,13 @@ can use to compile code to be run on your embedded Linux machine.
 # Design Pattern
 
 When designing our own Linux distribution we want to take advantage of the layer
-structure of Yocto Project and the custom modular
-layers produced by board vendors and the community as a whole. There is a reason
-that this project exists. It's very hard to design a custom BSP layer to support
-hardware and it's not recommended by Yocto Project to attempt to do so. Instead
-include whatever layers are provided for you in your build. Sometimes a
-lightweight distribution will also be provided which you can either modify to
-create your own or use as a reference.
+structure of Yocto Project and the custom modular layers produced by board
+vendors and the community as a whole. There is a reason that this project
+exists. It's very hard to design a custom BSP layer to support hardware and it's
+not recommended by Yocto Project to attempt to do so. Instead include whatever
+layers are provided for you in your build. Sometimes a lightweight distribution
+will also be provided which you can either modify to create your own or use as a
+reference.
 
 When you are designing an image, there will be two groups of layers. Ones that
 you do not maintain and should never edit and project specific ones that are
@@ -217,9 +222,11 @@ and new recipes that integrate your own software.
 
 A Design Scenario: My SoC: Apalis IMX8
 
-[Toradex](https://www.toradex.com/) produces the [Apalis IMX8](https://developer.toradex.com/hardware/apalis-som-family/modules/apalis-imx8/) and supplies a BSP layer and kernel for
-customer use. Toradex has very good documentation on how to use and modify
-their layers and I've personally referred to them often.
+[Toradex](https://www.toradex.com/) produces the
+[Apalis IMX8](https://developer.toradex.com/hardware/apalis-som-family/modules/apalis-imx8/)
+and supplies a BSP layer and kernel for customer use. Toradex has very good
+documentation on how to use and modify their layers and I've personally referred
+to them often.
 
 To create my BSP layer, I bring in the `meta-toradex-bsp-common` layer and
 satisfy its dependencies. It builds successfully but I want to make
@@ -252,7 +259,7 @@ For further digging, I'd highly recommend referring to Yocto's official site:
 [Yocto Technical Overview](https://www.yoctoproject.org/development/technical-overview)
 
 Toradex also has great documentation on Embedded OS development with their
-products: 
+products:
 [Toradex OS Development](https://developer.toradex.com/Linux-bsp/os-development)
 
 A basic video tutorial series on Embedded Linux I recommend:
