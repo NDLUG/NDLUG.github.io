@@ -15,7 +15,7 @@ title = "NDLUG"
 | 9/30  | 7:30pm | 303 Cushing | [Distros 101](meetings/distros-101)                                          | [whgriff](https://whgriff.com)                               |
 | 10/7  | 7:00pm | 303 Cushing | What is Free Open Source Software?                                           | [bob_tables](https://xkcd.com/327/)                          |
 | 10/28 | 7:00pm | 303 Cushing | [Embedded Linux: Yocto Project](meetings/yocto-project)                      | [bforseth](https://brandonfors.github.io/PersonalSite/)      |
-| 11/4  | 7:00pm | 303 Cushing | Virtual Private Servers & Network Attached Storage                           | [sudo](https://sam.neisewander.com)                          |
+| 11/4  | 7:00pm | 303 Cushing | [Virtual Private Servers & Network Attached Storage](meetings/vps-and-nas)   | [sudo](https://sam.neisewander.com)                          |
 | 11/4  | 7:00pm | 303 Cushing | Student Mixer feat. [Subra Kumaraswamy](https://www.linkedin.com/in/subrak/) | -                                                            |
 | 11/11 | 7:00pm | 303 Cushing | Spring 2027 Course Review                                                    | -                                                            |
 | 11/18 | 7:00pm | 303 Cushing | Data Sovereignty                                                             | [bob_tables](https://xkcd.com/327/)                          |
